@@ -1,14 +1,18 @@
 import React, { Fragment } from "react";
 import Navbar from "../features/Navbar/Navbar";
 import { ProductList } from "../features/Productlist/ProductList";
-
+import Homefold from "../components/Homeabove";
+import SellBook from "../components/SellBook";
+import { BrowserRouter } from "react-router-dom";
 const Home = () => {
   return (
-    <Fragment>
+    <BrowserRouter>
       <Navbar>
-        <ProductList />
+        <Homefold/>
+        <SellBook/>
+        {/* <ProductList /> */}
       </Navbar>
-    </Fragment>
+    </BrowserRouter>
   );
 };
 
