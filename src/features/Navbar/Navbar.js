@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, ShoppingCartIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import Footer from "../Footer/Footer";
 
 const user = {
   name: "Tom Cook",
@@ -56,11 +57,16 @@ export default function Navbar({ children }) {
     </div>
   </div>
   <main>
-    <div className="mx-auto max-w-7xl py-6 sm:py-0 sm:px-0 ">
+    <div className="mx-auto max-w-7xl py-0 sm:py-0 sm:px-0 ">
       {" "}
       {children}
     </div>
   </main>
+  <div className="mx-auto max-w-7xl py-6 sm:py-0 sm:px-0 ">
+
+
+  <Footer/>
+</div>
 </nav>
 
     </>

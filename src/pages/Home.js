@@ -4,6 +4,7 @@ import { ProductList } from "../features/Productlist/ProductList";
 import Homefold from "../components/Homeabove";
 import SellBook from "../components/SellBook";
 import { BrowserRouter } from "react-router-dom";
+import Footer from "../features/Footer/Footer";
 const Home = () => {
   return (
     <BrowserRouter>
@@ -11,6 +12,7 @@ const Home = () => {
         <Homefold/>
         <SellBook/>
         {/* <ProductList /> */}
+
       </Navbar>
     </BrowserRouter>
   );

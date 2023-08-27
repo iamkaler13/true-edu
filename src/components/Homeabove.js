@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 const Homefold = () => {
   return (
     <>
-      <div className="bg-[heading] relative h-[620px] shadow-lg">
-        <div className=" mx-auto max-w-[90%] sm:max-w-[80%] md:max-w-[80%] lg:max-w-[80%]  py-12 sm:py-20 relative">
+      <div className="bg-[heading] relative  h-[520px] sm:h-[620px] shadow-lg sm:mb-0 mb-[44px]">
+        <div className=" mx-auto max-w-[90%] sm:max-w-[80%] md:max-w-[80%] lg:max-w-[80%]  py-0 sm:py-20 relative">
           <div className="block sm:flex   justify-center  gap-10">
             <div>
               <p
