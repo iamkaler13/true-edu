@@ -5,6 +5,7 @@ import { BrowserRouter , Route, Routes } from "react-router-dom";
 import Navbar from "./features/Navbar/Navbar.js";
 import Footer from "./features/Footer/Footer.js";
 import Product from "./pages/Product.js";
+
 import Publish from "./pages/Publish.js";
 
 function App() {

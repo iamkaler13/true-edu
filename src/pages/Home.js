@@ -5,6 +5,7 @@ import SellBook from "../components/SellBook";
 import { BrowserRouter } from "react-router-dom";
 import Footer from "../features/Footer/Footer";
 import Myapp from "../components/Myapp";
+import Connect from "../components/Connect";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
     
         <Homefold/>
         <Myapp/>
+<Connect/>
         <SellBook/>
 </div>
   );
