@@ -19,7 +19,7 @@ const Footer = () => {
                   fill={"true"}
                   className="bg-contain mx-auto w-full"
                   alt="logo.png"
-                  src={"/Logo-trans.svg"}
+                  src={"/logo-trans.svg"}
                 />
               </Link>
             </div>
