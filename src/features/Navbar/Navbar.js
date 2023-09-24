@@ -1,74 +1,96 @@
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, ShoppingCartIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import React, { useEffect } from "react";
+import { Bars4Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import Accordian from "../Accordian/Acoordian";
 import Footer from "../Footer/Footer";
+import Banner from "../../components/Banner";
+const Navbar = ({ children }) => {
+  const [show, setShow] = useState(false);
 
-const user = {
-  name: "Tom Cook",
-  email: "tom@example.com",
-  imageUrl:
-    "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-};
-const navigation = [
-  { name: "Dashboard", href: "#", current: true },
-  { name: "Team", href: "#", current: false },
-];
-const userNavigation = [
-  { name: "Your Profile", href: "#" },
-  { name: "Settings", href: "#" },
-  { name: "Sign out", href: "#" },
-];
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
-
-export default function Navbar({ children }) {
+  const nav_links = [
+    {
+      name: " Publish With Us",
+      link: "/publish-with-us",
+    },
+    {
+      name: "Where To Buy",
+      icon: "",
+      link: "/where-to-buy",
+    },
+    {
+      name: "Contact Us",
+      icon: "",
+      link: "/contact-us",
+    },
+  ];
   return (
     <>
-   
-<nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 sm:px-[64px] shadow-lg">
-    <a href="#" class="flex items-center">
-        <img src="/logo.png" class="h-8 mr-3" alt="Flowbite Logo" />
-    </a>
-    <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-        </svg>
-    </button>
-    <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-      <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
-        </li>
-   
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Publish With Us</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Where To Buy</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact Us</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <main>
-    <div className="mx-auto max-w-7xl py-0 sm:py-0 sm:px-0 ">
-      {" "}
-      {children}
-    </div>
-  </main>
-  <div className="mx-auto max-w-7xl py-6 sm:py-0 sm:px-0 ">
+    <Banner/>
+      <nav
+        id="header"
+        className="sticky top-0 start-0 z-[999999] sm:z-50 w-full   bg-[#4d6998] border-gray-200"
+      >
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto  ">
+          <div className="relative flex flex-row items-center w-full px-6 sm:px-0 md:px-0 lg:px-0 h-[60px]">
+            <div className="relative w-[10rem] h-8 mr-24">
+              <Link to="/">
+                <img
+                  fill={"true"}
+                  className="bg-contain mx-auto w-full"
+                  alt="logo.png"
+                  src={"/Logo-trans.svg"}
+                />
+              </Link>
+            </div>
+            <div></div>
+            <div className="sm:flex flex-row relative ml-auto cursor-pointer">
+              <ul className="hidden relative linkhr md:flex text-black gap-[34px] flex-row">
+                {nav_links.map((element, key) => (
+                  <li className="menus_desk py-[15px] pr-[15px] h-[60px] group relative cursor-pointer  hover:border-l-0 hover:border-t-0 ">
+                    <p className="flex relative ">
+                      <Link
+                        to={element.link}
+                        className="sm:pt-[4px] sm:pb-[6px]   border-[white] hover:border-b-[2px]   text-white "
+                      >
+                        {element.name}
+                      </Link>{" "}
+                      <p className="absolute top-[8px] right-[-15px]">
+                        {element.icon}
+                      </p>
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="flex md:hidden flex-row relative ml-auto cursor-pointer">
+              {show === false ? (
+                <Bars4Icon
+                  className="animate-fadeIn h-8 w-8 text-[white]"
+                  onClick={(e) => {
+                    setShow(true);
+                  }}
+                />
+              ) : (
+                <XMarkIcon
+                  className="animate-fadeIn h-8 w-8 text-black"
+                  onClick={(e) => {
+                    setShow(false);
+                  }}
+                />
+              )}
+            </div>
+          </div>
+        </div>
 
-
-  <Footer/>
-</div>
-</nav>
-
+        {show === true && (
+          <div className="block md:hidden lg:hidden sm:hidden w-full pb-[20px] ">
+            <Accordian setShow={setShow} nav_links={nav_links} />
+          </div>
+        )}
+      </nav>
     </>
   );
-}
+};
+
+export default Navbar;

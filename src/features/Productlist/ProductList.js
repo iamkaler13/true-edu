@@ -9,16 +9,17 @@ import {
   Squares2X2Icon,
 } from "@heroicons/react/20/solid";
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 export function ProductList() {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
 
   const sortOptions = [
-    { name: "Most Popular", href: "#", current: true },
-    { name: "Best Rating", href: "#", current: false },
-    { name: "Newest", href: "#", current: false },
-    { name: "Price: Low to High", href: "#", current: false },
-    { name: "Price: High to Low", href: "#", current: false },
+    { name: "Most Popular", to: "#", current: true },
+    { name: "Best Rating", to: "#", current: false },
+    { name: "Newest", to: "#", current: false },
+    { name: "Price: Low to High", to: "#", current: false },
+    { name: "Price: High to Low", to: "#", current: false },
   ];
 
   const filters = [
@@ -67,7 +68,7 @@ export function ProductList() {
     {
       id: 1,
       name: "Basic Tee",
-      href: "#",
+      to: "#",
       imageSrc:
         "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
       imageAlt: "Front of men's Basic Tee in black.",
@@ -77,7 +78,7 @@ export function ProductList() {
     {
       id: 1,
       name: "Basic Tee",
-      href: "#",
+      to: "#",
       imageSrc:
         "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
       imageAlt: "Front of men's Basic Tee in black.",
@@ -87,7 +88,7 @@ export function ProductList() {
     {
       id: 1,
       name: "Basic Tee",
-      href: "#",
+      to: "#",
       imageSrc:
         "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
       imageAlt: "Front of men's Basic Tee in black.",
@@ -97,7 +98,7 @@ export function ProductList() {
     {
       id: 1,
       name: "Basic Tee",
-      href: "#",
+      to: "#",
       imageSrc:
         "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
       imageAlt: "Front of men's Basic Tee in black.",
@@ -107,7 +108,7 @@ export function ProductList() {
     {
       id: 1,
       name: "Basic Tee",
-      href: "#",
+      to: "#",
       imageSrc:
         "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
       imageAlt: "Front of men's Basic Tee in black.",
@@ -252,10 +253,10 @@ export function ProductList() {
                 <div className="mt-4 flex justify-between">
                   <div>
                     <h3 className="text-sm text-gray-700">
-                      <a href={product.href}>
+                      <Link to={product.to}>
                         <span aria-hidden="true" className="absolute inset-0" />
                         {product.name}
-                      </a>
+                      </Link>
                     </h3>
                     <p className="mt-1 text-sm text-gray-500">
                       {product.color}

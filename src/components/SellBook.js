@@ -12,8 +12,7 @@ const SellBook = () => {
           <div className=" sm:w-[100%] md:w-[50%] lg:w-[50%]">
             {" "}
             <h2 className="mb-5 md:mb-0 font-bold  text-2xl  md:text-h2 lg:text-h2 sm:text-h2 sm:leading-none text-heading  ">
-              True-Edu's Mobile App where you can subscribe books at very low
-              rates.{" "}
+            TrueEdu - Your  Study Partner
             </h2>
           </div>
           <div className="block sm:grid md:grid lg:grid grid-cols-2 gap-4">
@@ -32,7 +31,7 @@ const SellBook = () => {
                 "py-2 px-8 sm:px-20  lg:px-8 sm:py-8 md:py-8 lg:py-8 w-full hover:font-semibold first-letter:w-full focus:ring-yellow-300  hover:text-primary bg-primary hover:bg-white text-lg font-semibold text-white  dark:focus:ring-yellow-900 rounded-lg"
               }
             >
-              Coming Soon
+              Our Books
             </button>
           </div>
         </div>
