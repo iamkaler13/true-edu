@@ -20,9 +20,9 @@ const Product = () => {
     {
       id: 1,
       name: "Book 1",
-      to: "#",
+      href: "#",
       imageSrc:
-        "https://trueedu.in/wp-content/uploads/2023/07/1-1-223x300.jpg",
+        "/product.jpg",
       imageAlt: "Front of men's Basic Tee in black.",
       price: "$35",
       color: "Black",
@@ -30,9 +30,9 @@ const Product = () => {
     {
       id: 1,
       name: "Book 2",
-      to: "#",
+      href: "#",
       imageSrc:
-      "https://trueedu.in/wp-content/uploads/2023/07/1-1-223x300.jpg",
+      "/product.jpg",
       imageAlt: "Front of men's Basic Tee in black.",
       price: "$35",
       color: "Black",
@@ -40,9 +40,9 @@ const Product = () => {
     {
       id: 1,
       name: "Book 3",
-      to: "#",
+      href: "#",
       imageSrc:
-      "https://trueedu.in/wp-content/uploads/2023/07/1-1-223x300.jpg",
+      "/product.jpg",
       imageAlt: "Front of men's Basic Tee in black.",
       price: "$35",
       color: "Black",
@@ -50,9 +50,9 @@ const Product = () => {
     {
       id: 1,
       name: "Basic Tee",
-      to: "#",
+      href: "#",
       imageSrc:
-      "https://trueedu.in/wp-content/uploads/2023/07/1-1-223x300.jpg",
+      "/product.jpg",
       imageAlt: "Front of men's Basic Tee in black.",
       price: "$35",
       color: "Black",
@@ -60,9 +60,9 @@ const Product = () => {
     {
       id: 1,
       name: "Basic Tee",
-      to: "#",
+      href: "#",
       imageSrc:
-        "https://trueedu.in/wp-content/uploads/2023/07/1-1-223x300.jpg",
+        "/product.jpg",
       imageAlt: "Front of men's Basic Tee in black.",
       price: "$35",
       color: "Black",
