@@ -5,6 +5,16 @@ const Myapp = () => {
     <div className="about">
     <div className=" mx-auto max-w-[90%] sm:max-w-[90%] md:max-w-[90%] lg:max-w-[90%] sm:py-10 py-6">
       <div className="mt-4 block sm:flex md:flex lg:flex justify-between items-center">
+      <div className="sm:hidden block ">
+          <div className="relative w-auto h-auto sm:w-[550px] mt-[-40px]">
+       
+            <img
+              src="/mobile-app.svg"
+              className="w-full mx-auto bg-contain !static sm:absolute"
+              fill={true}
+            />
+          </div>
+        </div>
         <div className="text-center sm:text-left">
         
             <h2 className="font-bold text-[45px] sm:leading-none leading-[50px] text-[#252C47] sm:mt-0 mt-4 sm:text-[64px] sm:leading-none">
@@ -30,7 +40,7 @@ const Myapp = () => {
             </form>
           </div>
         </div>
-        <div className="block">
+        <div className="sm:block hidden">
           <div className="relative w-auto h-auto sm:w-[550px] ]">
        
             <img
