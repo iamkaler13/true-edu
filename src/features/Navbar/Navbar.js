@@ -29,7 +29,7 @@ const Navbar = ({ children }) => {
     <Banner/>
       <nav
         id="header"
-        className="sticky top-0 start-0 z-[999999] sm:z-50 w-full   bg-[#4d6998] border-gray-200"
+        className="sticky top-0 sm:top-[-1px] start-0 z-[999999] sm:z-50 w-full   bg-[#4d6998] border-gray-200"
       >
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto  ">
           <div className="relative flex flex-row items-center w-full px-6 sm:px-0 md:px-0 lg:px-0 h-[60px]">
@@ -73,7 +73,7 @@ const Navbar = ({ children }) => {
                 />
               ) : (
                 <XMarkIcon
-                  className="animate-fadeIn h-8 w-8 text-black"
+                  className="animate-fadeIn h-8 w-8 text-white"
                   onClick={(e) => {
                     setShow(false);
                   }}

@@ -16,7 +16,7 @@
 
  .nav-accordian .accordion__button:before {
     position: absolute !important;
-
+display: none !important;
     right: -6px !important;
   top: 32px !important;
 }

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 const Homefold = () => {
   return (
@@ -22,16 +22,16 @@ const Homefold = () => {
                 {/* <h1 className=" font-bold  m-auto text-center sm:mt-8 mt-4 sm:text-[50px] text-[27px] text-heading  sm:leading-none  ">
                   True-Edu Publications
                 </h1> */}
-<div className="relative w-[15rem] h-8 mr-24">
-              <Link to="/">
-                <img
-                  fill={"true"}
-                  className="bg-contain mx-auto w-full"
-                  alt="logo.png"
-                  src={"/logo-blue.svg"}
-                />
-              </Link>
-            </div>
+                <div className="relative w-[15rem] h-8 mr-24">
+                  <Link to="/">
+                    <img
+                      fill={"true"}
+                      className="bg-contain mx-auto w-full"
+                      alt="logo.png"
+                      src={"/logo-blue.svg"}
+                    />
+                  </Link>
+                </div>
               </div>
 
               <div className="font-bold text-2xl m-auto w-[300px] sm:w-full text-center mt-4  md:text-h3 lg:text-h3 sm:text-h3 t  sm:mt-8 mb-2 sm:mb-4 text-heading">
