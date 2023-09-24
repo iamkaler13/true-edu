@@ -6,8 +6,8 @@ const Connect = () => {
        
     
         { src: "/communication_channels/apple.svg", animation: "mobile leftimg_sec animation", link:""},
-        { src: "/facebook.svg", animation: "mobile leftimg_sec animation2",link:"" },
-        { src: "/communication_channels/insta.svg", animation: "mobile leftimg_sec animation2",link:"" },
+        { src: "/facebook.svg", animation: "mobile leftimg_sec animation2",link:"https://www.facebook.com/TrueEduPublications" },
+        { src: "/communication_channels/insta.svg", animation: "mobile leftimg_sec animation2",link:"https://www.instagram.com/trueedu_publications/" },
         { src: "/whatsapp.svg", animation: "mobile leftimg_sec animation3",link:"whatsapp://send?abid=phonenumber&text=Hello%2C%20World!" },
       ];
     return (

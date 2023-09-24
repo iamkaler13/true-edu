@@ -13,8 +13,10 @@ const Home = () => {
     
         <Homefold/>
         <Myapp/>
-<Connect/>
         <SellBook/>
+
+<Connect/>
+
 </div>
   );
 };
