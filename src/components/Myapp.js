@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 const Myapp = () => {
   return (
-    <div className="about">
+    <div className="about shadow-lg">
     <div className=" mx-auto max-w-[90%] sm:max-w-[90%] md:max-w-[90%] lg:max-w-[90%] sm:py-10 py-6">
       <div className="mt-4 block sm:flex md:flex lg:flex justify-between items-center">
       <div className="sm:hidden block ">
