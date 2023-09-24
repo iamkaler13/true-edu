@@ -12,7 +12,7 @@ const Home = () => {
         <Heighlight />
 
         <Myapp/>
-        <SellBook/>
+        {/* <SellBook/> */}
 
 <Connect/>
 
