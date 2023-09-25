@@ -27,23 +27,23 @@ const Footer = () => {
                 <div>
                   <div className=" sm:flex justify-between gap-3  items-start">
                     <div className="flex flex-wrap sm:justify-between gap-3 items-start">
-                      <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent  hover:bg-white hover:text-black hover:border-black    py-1 px-2 ">
+                      <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent   hover:text-white hover:border-b-[1px]    py-1 px-2 ">
                         <Link to="/privacy-policy">Who We Are</Link>
                       </h6>
 
-                      <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent  hover:bg-white hover:text-black hover:border-black    py-1 px-2 ">
+                      <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent      hover:text-white hover:border-b-[1px]    py-1 px-2 ">
                         <Link to="/our-mission">Our Mission</Link>
                       </h6>
-                      <h6 className="  text-white   font-[200] cursor-pointer btext-xl bg-transparent  hover:bg-white hover:text-black hover:border-black    py-1 px-2 ">
+                      <h6 className="  text-white   font-[200] cursor-pointer btext-xl bg-transparent    hover:text-white hover:border-b-[1px]   py-1 px-2 ">
                         <Link to="/about-us">About Us </Link>
                       </h6>
-                      <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent  hover:bg-white hover:text-black hover:border-black    py-1 px-2 ">
+                      <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent    hover:text-white hover:border-b-[1px]    py-1 px-2 ">
                         <Link to="/publish-With-us">Publish With Us</Link>
                       </h6>
-                      <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent  hover:bg-white hover:text-black hover:border-black    py-1 px-2 ">
+                      <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent     hover:text-white hover:border-b-[1px]  py-1 px-2 ">
                         <Link to="/contact-us">Contact Us</Link>
                       </h6>
-                      <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent  hover:bg-white hover:text-black hover:border-black    py-1 px-2 ">
+                      <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent    hover:text-white hover:border-b-[1px]    py-1 px-2 ">
                         <Link to="/article/Where To Buy-overview">
                           Where To Buy
                         </Link>
