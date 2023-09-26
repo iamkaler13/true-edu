@@ -29,6 +29,8 @@ const Footer = () => {
                     <div className="flex flex-wrap sm:justify-between gap-3 items-start">
                      
 
+                     
+
                       <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent      hover:text-white hover:border-b-[1px]    py-1 px-2 ">
                         <Link to="/our-mission">Our Mission</Link>
                       </h6>
