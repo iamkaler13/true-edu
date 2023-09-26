@@ -8,6 +8,8 @@ import Product from "./pages/Product.js";
 
 import Publish from "./pages/Publish.js";
 import WheretoBuy from "./pages/WheretoBuy.js";
+import Privacypociy from "./pages/Privacypociy.js";
+import Whoweare from "./pages/Whoweare.js";
 
 function App() {
   return (
@@ -20,6 +22,9 @@ function App() {
           <Route path="/product" element={<Product />} />
           <Route path="/publish-with-us" element={<Publish />} />
           <Route path="/where-to-buy" element={<WheretoBuy />} />
+          <Route path="/privacy-policy" element={<Privacypociy />} />
+          <Route path="/who-we-are" element={<Whoweare />} />
+
 
         </Routes>
       </div>

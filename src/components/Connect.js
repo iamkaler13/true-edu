@@ -11,7 +11,7 @@ const Connect = () => {
         { src: "/whatsapp.svg", animation: "mobile leftimg_sec animation3",link:"https://api.whatsapp.com/send?phone=7807585896" },
       ];
     return (
-    <div className=" bg-[white] pt-2 sm:pt-10 pb-2 sm:pb-4 shadow-lg sm:my-[26px] ">
+    <div className=" bg-[white] pt-2 sm:pt-10 pb-2 sm:pb-4  sm:my-[26px] ">
     <div className="my-8  mx-auto max-w-[90%]">
       <h2 className="text-center font-bold mb-4 sm:mb-0 text-2xl text-heading md:text-h2 lg:text-h2 sm:text-h2 sm:leading-8 js-show-on-scroll ">
         {/* One platform, infinite possibilities */}

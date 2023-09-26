@@ -1,4 +1,5 @@
 import React from "react";
+import Connect from "../components/Connect";
 
 const ContactUs = () => {
   return (
@@ -83,6 +84,29 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
+        <div>
+          <h2 className="text-lg sm:text-h3 sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
+            Contact Information:
+          </h2>
+          <p className="my-3">
+            <span className="font-bold"> Office Address:</span> True-Edu
+            Publications, Sub Tehsil-Sadwan, Nurpur, Himachal Pradesh, Pin Code
+            – 176202.
+          </p>
+
+          <p  className="my-3">
+            {" "}
+            <span className="font-bold"> Whatsapp: </span> For general inquiries
+            or support please text us on 7807585896.
+          </p>
+          <p  className="my-3"> 
+            <span className="font-bold">E-mail:</span>{" "}
+            <span className="text-[blue]">support@trueedu.in </span> or{" "}
+            <span className="text-[blue]">trueeducation0100@gmail.com </span>
+          </p>
+        </div>
+        <Connect />
+
       </div>
     </div>
   );

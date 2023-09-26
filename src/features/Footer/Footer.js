@@ -28,7 +28,7 @@ const Footer = () => {
                   <div className=" sm:flex justify-between gap-3  items-start">
                     <div className="flex flex-wrap sm:justify-between gap-3 items-start">
                       <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent   hover:text-white hover:border-b-[1px]    py-1 px-2 ">
-                        <Link to="/privacy-policy">Who We Are</Link>
+                        <Link to="/who-we-are">Who We Are</Link>
                       </h6>
 
                       <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent      hover:text-white hover:border-b-[1px]    py-1 px-2 ">
@@ -44,8 +44,13 @@ const Footer = () => {
                         <Link to="/contact-us">Contact Us</Link>
                       </h6>
                       <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent    hover:text-white hover:border-b-[1px]    py-1 px-2 ">
-                        <Link to="/article/Where To Buy-overview">
+                        <Link to="/where-to-buy">
                           Where To Buy
+                        </Link>
+                      </h6>
+                      <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent    hover:text-white hover:border-b-[1px]    py-1 px-2 ">
+                        <Link to="/privacy-policy">
+Privacy Policy
                         </Link>
                       </h6>
                     </div>
