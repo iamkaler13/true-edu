@@ -10,6 +10,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
+
 .leftimg_sec.animation2 {
   animation: shake 15s infinite;
 }
