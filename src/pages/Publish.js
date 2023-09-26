@@ -65,33 +65,33 @@ const Publish = () => {
       <ul className="flex flex-col gap-3">
         <li className="text-base">
           <p>
-            1. Full Name: Provide your full name as you'd like it to appear on
+           <span className="font-semibold">1. Full Name:</span> Provide your full name as you'd like it to appear on
             your published works.
           </p>
         </li>
         <li className="text-base">
           <p>
-            2. Mobile Number: Share a contact number where we can reach you for
+            <span className="font-semibold">2. Mobile Number:</span> Share a contact number where we can reach you for
             discussions regarding your manuscript.
           </p>
         </li>
         <li className="text-base">
           <p>
-            3. Email Address: Enter your primary email address for communication
+          <span className="font-semibold">3. Email Address:</span> Enter your primary email address for communication
             and updates on your publishing process.
           </p>
         </li>
 
         <li className="text-base">
           <p>
-            4. Teaching Experience / Writing Experience: Briefly tell us about
+          <span className="font-semibold">4. Teaching Experience / Writing Experience:</span> Briefly tell us about
             your teaching or writing background, including any published works
             or notable achievements.
           </p>
         </li>
         <li>
           <p className="text-bases">
-            5. Preferred Writing Subjects: Let us know the subjects or genres
+          <span className="font-semibold">5. Preferred Writing Subjects:</span> Let us know the subjects or genres
             you're enthusiastic about writing, and we'll help you find the
             perfect fit for your creativity.
           </p>

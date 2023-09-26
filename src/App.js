@@ -7,6 +7,7 @@ import Footer from "./features/Footer/Footer.js";
 import Product from "./pages/Product.js";
 
 import Publish from "./pages/Publish.js";
+import WheretoBuy from "./pages/WheretoBuy.js";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/product" element={<Product />} />
           <Route path="/publish-with-us" element={<Publish />} />
+          <Route path="/where-to-buy" element={<WheretoBuy />} />
+
         </Routes>
       </div>
 
