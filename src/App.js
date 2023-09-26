@@ -10,6 +10,9 @@ import Publish from "./pages/Publish.js";
 import WheretoBuy from "./pages/WheretoBuy.js";
 import Privacypociy from "./pages/Privacypociy.js";
 import Whoweare from "./pages/Whoweare.js";
+import Ourmission from "./pages/Ourmission.js";
+import Aboutus from "./pages/Aboutus.js";
+import Ourteam from "./pages/Ourteam.js";
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
           <Route path="/where-to-buy" element={<WheretoBuy />} />
           <Route path="/privacy-policy" element={<Privacypociy />} />
           <Route path="/who-we-are" element={<Whoweare />} />
+          <Route path="/our-mission" element={<Ourmission />} />
+          <Route path="/about-us" element={<Aboutus />} />
+          <Route path="/our-team" element={<Ourteam />} />
 
 
         </Routes>

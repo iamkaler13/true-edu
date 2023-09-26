@@ -5,10 +5,7 @@ const ContactUs = () => {
   return (
     <div className=" bg-white sm:py-5 py-5 px-5 sm:px-0  ">
       <div className="sm:px-0">
-        <h2 className="text-lg sm:text-h3 sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
-          Provide a contact form for visitors to fill out. Request essential
-          details such as
-        </h2>
+        
         <div class="bg-blue-200  flex items-center">
           <div class="w-full">
             <div class="bg-white p-10 rounded-lg shadow md:w-3/4 mx-auto lg:w-1/2">
@@ -84,7 +81,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="shadow-lg sm:p-8 sm:mt-3">
           <h2 className="text-lg sm:text-h3 sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
             Contact Information:
           </h2>

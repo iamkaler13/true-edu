@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <div className="mx-auto max-w-[100rem] py-0 sm:py-0 sm:px-0">
+    <div className="mx-auto max-w-[100rem] py-0 sm:py-0 sm:px-0 ">
       <div className="bg-[#E97451] h-[7px]">
         <p className="s"></p>
       </div>
@@ -52,6 +52,10 @@ const Footer = () => {
                         <Link to="/privacy-policy">
 Privacy Policy
                         </Link>
+                      </h6>
+                      <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent    hover:text-white hover:border-b-[1px]    py-1 px-2 ">
+                        <Link to="/our-team">
+Our team                        </Link>
                       </h6>
                     </div>
                   </div>
