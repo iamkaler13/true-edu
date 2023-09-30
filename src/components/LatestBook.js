@@ -40,10 +40,10 @@ autoplay :true,
   }, []);
   const data = [
     {
-      name: "Introduction to DBMS Back",
+      name: "Introduction to DBMS ",
       Author: "Madhu Dhiman",
       link: "/new/features/workflow-builder",
-      img:"/books/Introduction to DBMS Front.png"
+      img:"/books/Introduction to Dbms Front.png"
     },
     {
       name: "Fundamental of Electical & Electronics Engineering ",
