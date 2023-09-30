@@ -57,13 +57,16 @@ const WheretoBuy = () => {
 <div className="sm:px-0">
 
       <h2 className="text-lg sm:text-[30px] sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
-      List of distributor/Retailors
+      List of Distributor/Retailors
       </h2>
       <ul className="flex flex-col gap-3">
 {data.map((ele)=>
-        <li className="text-base">
+        <li className="text-base sm:flex sm:justify-between sm:w-[445px]">
           <p>
-          ⦁	{ele.name} – <span className='text-[blue]'> <a href={`tel:${ele.number}`} >  {ele.number}</a></span>
+          ⦁	{ele.name} – 
+          </p>
+          <p>
+          <span className='text-[blue]'> <a href={`tel:${ele.number}`} >  {ele.number}</a></span>
           </p>
         </li>
   )}

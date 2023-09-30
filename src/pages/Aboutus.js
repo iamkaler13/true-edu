@@ -34,40 +34,7 @@ const AboutUs = () => {
         <p className="my-3">
           Experience the Power of Knowledge with True-Edu Publications.
         </p>
-        <h2 className=" text-2xl sm:w-full  mt-4  md:text-h4 t  sm:mt-8 mb-2 sm:mb-4 text-heading">
-          Mission Statement:
-        </h2>
-        <p className="my-3">
-          "At True-Edu Publications, our mission is to ignite the flames of
-          curiosity and foster a lifelong love for learning among students of
-          all ages. We are committed to providing top-quality educational
-          resources that empower individuals to achieve their academic goals and
-          reach their fullest potential.
-        </p>
-        <p className="my-3">
-          Guided by our core values of excellence, integrity, and innovation, we
-          strive to create a dynamic and inclusive learning environment. Through
-          the expertise of our experienced authors and the dedication of our
-          team, we aim to deliver educational materials that inspire, inform,
-          and transform lives.
-        </p>
-        <p className="my-3">
-          We believe that education is the key to personal growth, career
-          success, and positive societal change. Therefore, we are unwavering in
-          our pursuit of producing books and resources that not only meet the
-          highest standards but also make learning an enriching and fulfilling
-          experience.
-        </p>
-        <p className="my-3">
-          True-Edu Publications is more than just a publisher; we are a partner
-          in the educational journey. We aspire to make a lasting impact on the
-          lives of students and educators alike, equipping them with the
-          knowledge and skills they need to thrive in an ever-evolving world.
-        </p>
-        <p className="my-3">
-          Join us in our mission to light the path of learning, one page at a
-          time."
-        </p>
+
         <h2 className=" text-2xl sm:w-full  mt-4  md:text-h4 t  sm:mt-8 mb-2 sm:mb-4 text-heading">
           Vision:
         </h2>
@@ -129,6 +96,40 @@ const AboutUs = () => {
         </p>
         <p className="my-3">
         By embodying these values and providing these benefits, True-Edu Publications aims to make a positive and lasting contribution to the field of education and the lives of students and educators.
+        </p>
+        <h2 className=" text-2xl sm:w-full  mt-4  md:text-h4 t  sm:mt-8 mb-2 sm:mb-4 text-heading">
+        Our  Mission:
+        </h2>
+        <p className="my-3">
+          "At True-Edu Publications, our mission is to ignite the flames of
+          curiosity and foster a lifelong love for learning among students of
+          all ages. We are committed to providing top-quality educational
+          resources that empower individuals to achieve their academic goals and
+          reach their fullest potential.
+        </p>
+        <p className="my-3">
+          Guided by our core values of excellence, integrity, and innovation, we
+          strive to create a dynamic and inclusive learning environment. Through
+          the expertise of our experienced authors and the dedication of our
+          team, we aim to deliver educational materials that inspire, inform,
+          and transform lives.
+        </p>
+        <p className="my-3">
+          We believe that education is the key to personal growth, career
+          success, and positive societal change. Therefore, we are unwavering in
+          our pursuit of producing books and resources that not only meet the
+          highest standards but also make learning an enriching and fulfilling
+          experience.
+        </p>
+        <p className="my-3">
+          True-Edu Publications is more than just a publisher; we are a partner
+          in the educational journey. We aspire to make a lasting impact on the
+          lives of students and educators alike, equipping them with the
+          knowledge and skills they need to thrive in an ever-evolving world.
+        </p>
+        <p className="my-3">
+          Join us in our mission to light the path of learning, one page at a
+          time."
         </p>
       </div>
     </div>

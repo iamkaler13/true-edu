@@ -5,13 +5,12 @@ const ContactUs = () => {
   return (
     <div className=" bg-white sm:py-5 py-5 px-5 sm:px-0  ">
       <div className="sm:px-0">
-        
-        <div class="bg-blue-200  flex items-center">
-          <div class="w-full">
-            <div class="bg-white p-10 rounded-lg shadow md:w-3/4 mx-auto lg:w-1/2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
+          <div>
+            <div class="bg-white p-10 rounded-lg shadow md:w-[100%  ] mx-auto">
               <form action="">
                 <div class="mb-5">
-                  <label for="name" class="block mb-2 font-bold text-gray-600">
+                  <label for="name" class="block mb-2 text-left font-bold text-gray-600">
                     Name
                   </label>
                   <input
@@ -26,7 +25,7 @@ const ContactUs = () => {
                 <div class="mb-5">
                   <label
                     for="twitter"
-                    class="block mb-2 font-bold text-gray-600"
+                    class="block mb-2 font-bold text-gray-600 text-left"
                   >
                     Email
                   </label>
@@ -41,7 +40,7 @@ const ContactUs = () => {
                 <div class="mb-5">
                   <label
                     for="twitter"
-                    class="block mb-2 font-bold text-gray-600"
+                    class="block mb-2 text-left font-bold text-gray-600"
                   >
                     Subject
                   </label>
@@ -56,7 +55,7 @@ const ContactUs = () => {
                 <div class="mb-5">
                   <label
                     for="twitter"
-                    class="block mb-2 font-bold text-gray-600"
+                    class="block mb-2 font-bold text-left text-gray-600"
                   >
                     Message
                   </label>
@@ -65,7 +64,7 @@ const ContactUs = () => {
                     id="message"
                     name="essage"
                     placeholder="Message"
-                    class="border border-red-300 shadow p-3 w-full rounded mb-"
+                    class="border border-red-300 shadow    p-3 w-full rounded mb-"
                   />
                 </div>
                 <div className="block sm:grid md:grid lg:grid grid-cols-1 mx-auto sm:w-[60%] gap-4 sm:mt-8 mt-3 sm:mb-8">
@@ -80,30 +79,34 @@ const ContactUs = () => {
               </form>
             </div>
           </div>
-        </div>
-        <div className="shadow-lg sm:p-8 sm:mt-3">
-          <h2 className="text-lg sm:text-[30px] sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
-            Contact Information:
-          </h2>
-          <p className="my-3">
-            <span className="font-bold"> Office Address:</span> True-Edu
-            Publications, Sub Tehsil-Sadwan, Nurpur, Himachal Pradesh, Pin Code
-            – 176202.
-          </p>
+          <div>
+            <div className=" sm:p-8 sm:mt-3">
+              <h2 className="text-lg sm:text-[30px] sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
+                Contact Information:
+              </h2>
+              <p className="my-3">
+                <span className="font-bold"> Office Address:</span> True-Edu
+                Publications, Sub Tehsil-Sadwan, Nurpur, Himachal Pradesh, Pin
+                Code – 176202.
+              </p>
 
-          <p  className="my-3">
-            {" "}
-            <span className="font-bold"> Whatsapp: </span> For general inquiries
-            or support please text us on 7807585896.
-          </p>
-          <p  className="my-3"> 
-            <span className="font-bold">E-mail:</span>{" "}
-            <span className="text-[blue]">support@trueedu.in </span> or{" "}
-            <span className="text-[blue]">trueeducation0100@gmail.com </span>
-          </p>
+              <p className="my-3">
+                {" "}
+                <span className="font-bold"> Whatsapp: </span> For general
+                inquiries or support please text us on 7807585896.
+              </p>
+              <p className="my-3">
+                <span className="font-bold">E-mail:</span>{" "}
+                <span className="text-[blue]">support@trueedu.in </span> or{" "}
+                <span className="text-[blue]">
+                  trueeducation0100@gmail.com{" "}
+                </span>
+              </p>
+            </div>
+          </div>
         </div>
+
         <Connect />
-
       </div>
     </div>
   );

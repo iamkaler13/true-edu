@@ -75,7 +75,7 @@ autoplay :true,
     <div className="bg-[white] shadow-lg  special">
       <div className=" mx-auto max-w-[90%] sm:max-w-[90%] md:max-w-[90%] lg:max-w-[90%]   sm:py-0">
         <div className="text-center">
-          <div className="!font-bold text-[37px] leading-[45px]  sm:text-[30px] sm:leading-none text-center  sm:w-[600px] m-auto">
+          <div className="!font-bold text-[37px] leading-[45px]  sm:text-[30px] sm:pt-0 pt-[20px] sm:leading-none text-center  sm:w-[600px] m-auto">
 
             <p>
 Our Latest Launch
@@ -108,7 +108,7 @@ Our Latest Launch
                   <h3 className="text-start mb-6 sm:mb-2 mt-10 sm:mt-2 text-xl font-semibold text-heading">
              
                     <div>
-                    <p>By : {ele.Author}</p>
+                    <p className="sm:text-[15px]">By : {ele.Author}</p>
                     </div>
                   </h3>
                 

@@ -40,9 +40,12 @@ const Footer = () => {
                       <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent    hover:text-white hover:border-b-[1px]    py-1 px-2 ">
                         <Link to="/our-team">Our Team</Link>
                       </h6>
-                      <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent     hover:text-white hover:border-b-[1px]  py-1 px-2 ">
-                        <Link to="/contact-us">Contact Us</Link>
+                      <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent    hover:text-white hover:border-b-[1px]    py-1 px-2 ">
+                        <Link to="/publish-with-us">
+
+Publish With Us                       </Link>
                       </h6>
+                
                       <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent    hover:text-white hover:border-b-[1px]    py-1 px-2 ">
                         <Link to="/where-to-buy">
                           Where To Buy
@@ -53,10 +56,8 @@ const Footer = () => {
 Privacy Policy
                         </Link>
                       </h6>
-                      <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent    hover:text-white hover:border-b-[1px]    py-1 px-2 ">
-                        <Link to="/publish-with-us">
-
-Publish With Us                       </Link>
+                      <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent     hover:text-white hover:border-b-[1px]  py-1 px-2 ">
+                        <Link to="/contact-us">Contact Us</Link>
                       </h6>
                     </div>
                   </div>
