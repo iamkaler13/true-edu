@@ -10,7 +10,7 @@ import { useEffect } from "react";
 const LatestBook = () => {
   var workflowslider = {
     arrows: true,
-// autoplay :true,
+autoplay :true,
     speed: 900,
     slidesToShow: 3,
     slidesToScroll: 1,
