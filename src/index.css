@@ -95,3 +95,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.slick-next:before, .slick-prev:before {
+  font-family: slick;
+  font-size: 30px;
+  line-height: 1;
+  opacity: .75;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-next:before, .slick-prev:before {
+  color: #4d6998!important;
+}
