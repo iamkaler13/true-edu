@@ -10,7 +10,7 @@ import { useEffect } from "react";
 const LatestBook = () => {
   var workflowslider = {
     arrows: true,
-autoplay :true,
+// autoplay :true,
     speed: 900,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -105,10 +105,10 @@ Our Latest Launch
                     {ele.name}
                     </div>
                   </h2>
-                  <h3 className="text-start mb-6 sm:mb-2 mt-10 sm:mt-8 text-xl font-semibold text-heading">
+                  <h3 className="text-start mb-6 sm:mb-2 mt-10 sm:mt-2 text-xl font-semibold text-heading">
              
                     <div>
-                    <p>Writer : {ele.Author}</p>
+                    <p>Author : {ele.Author}</p>
                     </div>
                   </h3>
                 
