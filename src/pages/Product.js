@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { ProductList } from "../features/Productlist/ProductList";
 const Product = () => {
  
   const data = [
@@ -23,9 +24,9 @@ const Product = () => {
       href: "#",
       imageSrc:
         "/product.jpg",
-      imageAlt: "Front of men's Basic Tee in black.",
+      imageAlt: "Front of men's Basic Tee in Author.",
       price: "$35",
-      color: "Black",
+      color: "Author",
     },
     {
       id: 1,
@@ -33,9 +34,9 @@ const Product = () => {
       href: "#",
       imageSrc:
       "/product.jpg",
-      imageAlt: "Front of men's Basic Tee in black.",
+      imageAlt: "Front of men's Basic Tee in Author.",
       price: "$35",
-      color: "Black",
+      color: "Author",
     },
     {
       id: 1,
@@ -43,9 +44,9 @@ const Product = () => {
       href: "#",
       imageSrc:
       "/product.jpg",
-      imageAlt: "Front of men's Basic Tee in black.",
+      imageAlt: "Front of men's Basic Tee in Author.",
       price: "$35",
-      color: "Black",
+      color: "Author",
     },
     {
       id: 1,
@@ -53,9 +54,9 @@ const Product = () => {
       href: "#",
       imageSrc:
       "/product.jpg",
-      imageAlt: "Front of men's Basic Tee in black.",
+      imageAlt: "Front of men's Basic Tee in Author.",
       price: "$35",
-      color: "Black",
+      color: "Author",
     },
     {
       id: 1,
@@ -63,9 +64,9 @@ const Product = () => {
       href: "#",
       imageSrc:
         "/product.jpg",
-      imageAlt: "Front of men's Basic Tee in black.",
+      imageAlt: "Front of men's Basic Tee in Author.",
       price: "$35",
-      color: "Black",
+      color: "Author",
     },
     // More products...
   ];
@@ -103,36 +104,7 @@ const Product = () => {
       </div>
       <div className="filter-cards text-center sm:mt-[24px] pb-5 px-4 mt-[0px]">
         <div className="flex justify-between items-start sm:flex-row flex-col">
-          <div className="w-full">
-            <div
-              onClick={() => setSHow(!show)}
-              className="mb-4  !w-[100%] max-w-[420px] cursor-pointer bg-white border-1 justify-between items-center  flex py-[6px] px-[24px] rounded-[20px] shadow-xl"
-            >
-              <div>
-                <span className="text-[#9c9db4]">choose category</span>
-                <p className="text-heading text-left">{showCat} </p>
-              </div>
-              <ChevronDownIcon class="h-6 w-6 text-[#ff611e]" />
-            </div>
-            {show ? (
-              <div className="bg-white p-5 rounded-[20px] shadow-md !w-[100%] max-w-[420px]">
-                {data.map((ele) => (
-                  <div
-                    className="rounded  w-[225px] text-start pb-3 cursor-pointer"
-                    onClick={() => {
-                      setSHow(false);
-                      setShowCat(ele);
-                      handleSelect(ele);
-                    }}
-                  >
-                    <p>{ele}</p>
-                  </div>
-                ))}
-              </div>
-            ) : (
-              ""
-            )}
-          </div>
+     
 
           <div className="text-right h-[60px]  flex justify-end  w-[100%] sm:w-[220px]">
             <div className="relative w-[100%] sm:w-[220px] ">
@@ -168,28 +140,8 @@ const Product = () => {
           </div>
         </div>
       </div>
-      <div className="filter-cards text-center sm:mt-[24px] pb-5 px-4 w-[90%] mx-[auto]">
-        <div className="grid  grid-cols-1 sm:grid-cols-4 gap-[20px] sm:gap-[40px] ">
-          {integrationData.map((ele) => (
-          <div key={ele.id} className="group relative shadow-xl hover:shadow-3xl cursor-pointer rounded-[20px]">
-          <div className=" lg:h-80">
-            <img
-              src={ele.imageSrc}
-              // alt={product.imageAlt}
-              className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-            />
-          </div>
-            <div>
-              <h3 className="text-[20px] px-8 text-left  text-gray-700">
-             
-                  {ele.name}
-              </h3>
-         
-          </div>
-        </div>
-          ))}
-        </div>
-      </div>
+    <ProductList/>
+    
     </div>
   );
 };
