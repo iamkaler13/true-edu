@@ -82,7 +82,7 @@ const ContactUs = () => {
           </div>
         </div>
         <div className="shadow-lg sm:p-8 sm:mt-3">
-          <h2 className="text-lg sm:text-h3 sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
+          <h2 className="text-lg sm:text-[30px] sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
             Contact Information:
           </h2>
           <p className="my-3">

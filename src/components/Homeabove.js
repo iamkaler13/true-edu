@@ -34,7 +34,7 @@ const Homefold = () => {
                 </div>
               </div>
 
-              <div className="font-bold text-2xl m-auto w-[300px] sm:w-full text-center mt-4  md:text-h3 lg:text-h3 sm:text-h3 t  sm:mt-8 mb-2 sm:mb-4 text-heading">
+              <div className="font-bold text-2xl m-auto w-[300px] sm:w-full text-center mt-4  md:text-h3 lg:text-h3 sm:text-[30px] t  sm:mt-8 mb-2 sm:mb-4 text-heading">
                 Your Journey, Our Books{" "}
               </div>
 

@@ -4,7 +4,7 @@ const Whoweare = () => {
   return (
     <div className=" bg-white sm:py-5 py-5 px-5 sm:px-0  ">
       <div className="sm:px-0">
-        <h2 className="text-lg sm:text-h3 sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
+        <h2 className="text-lg sm:text-[30px] sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
           Welcome to True-Edu Publications
         </h2>
 

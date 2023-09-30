@@ -1,79 +1,93 @@
-[    {
-      "name": "Advanced  Surveying",
-      "Author": "Amish Rehalia & Himanshu Bagalwan",
-      "slug":"advanced-surveying",
-      "link": "/new/features/workflow-builder",
-      "img":"/books/Advanced  Surveying Front.png",
-      "price": "$35",
-      "isbn":"",
-      "AbooutTheBook":["","",""],
-      "tableofcontent" :["","",""]     
-    },
+[
+  {
+    "name": "Advanced  Surveying",
+    "Author": "Amish Rehalia & Himanshu Bagalwan",
+    "slug": "advanced-surveying",
+    "img": "/books/Advanced  Surveying Front.png",
+    "price": "$35",
+    "applicationPrice": "",
+    "isbn": "",
+    "AbooutTheBook": "",
+    "tableOfContents": [
+      {
+        "1": {
+          "name": "my book ",
+          "content": "gfhfxgfchvjbjn"
+        },
+        "2": {
+            "name": "my book ",
+            "content": "kjhgfcvbhj"
+          },
+          "3": {
+            "name": "my book ",
+            "content": "kjhgfcvbhj"
+          }
+
+      }
    
-    {
-      "name": " Applied Mathematics-2",
-      "Author": "Gyan Chand",
-      "slug":"advanced-surveying",
+    ]
+  },
+  {
+    "name": " Applied Mathematics-2",
+    "Author": "Gyan Chand",
+    "slug": "advanced-surveying",
 
-      "link": "/new/features/workflow-builder",
-      "img":"/books/Applied Mathematics-2 Front.png",
-      "price": "$35"
-    },
-    {
-      "name": " Applied Mathematics-2",
-      "Author": "Gyan Chand",
-      "slug":"advanced-surveying",
+    "link": "/new/features/workflow-builder",
+    "img": "/books/Applied Mathematics-2 Front.png",
+    "price": "$35"
+  },
+  {
+    "name": " Applied Mathematics-2",
+    "Author": "Gyan Chand",
+    "slug": "advanced-surveying",
 
-      "link": "/new/features/workflow-builder",
-      "img":"/books/Applied Mathematics-2 Front.png",
-      "price": "$35"
-    },
-    {
-      "name": "Introduction to DBMS ",
-      "Author": "Madhu Dhiman",
-      "slug":"advanced-surveying",
+    "link": "/new/features/workflow-builder",
+    "img": "/books/Applied Mathematics-2 Front.png",
+    "price": "$35"
+  },
+  {
+    "name": "Introduction to DBMS ",
+    "Author": "Madhu Dhiman",
+    "slug": "advanced-surveying",
 
-      "link": "/new/features/workflow-builder",
-      "img":"/books/Introduction to Dbms Front.png",
-      "price": "$35"
-    },
-    {
-      "name": "Fundamental of Electical & Electronics Engineering ",
-      "Author": "Avnish Paul",
-      "link": "/",
-      "price": "$35",
-      "slug":"advanced-surveying",
+    "link": "/new/features/workflow-builder",
+    "img": "/books/Introduction to Dbms Front.png",
+    "price": "$35"
+  },
+  {
+    "name": "Fundamental of Electical & Electronics Engineering ",
+    "Author": "Avnish Paul",
+    "link": "/",
+    "price": "$35",
+    "slug": "advanced-surveying",
 
-      "img":"/books/Feee Front.png"
-      
+    "img": "/books/Feee Front.png"
+  },
+  {
+    "name": "Essence of Indian Knowledge & Tradition",
+    "Author": "Puneet Sharma",
+    "link": "/",
+    "price": "$35",
+    "slug": "advanced-surveying",
 
-    },
-    {
-      "name": "Essence of Indian Knowledge & Tradition",
-      "Author": "Puneet Sharma",
-      "link": "/",
-      "price": "$35",
-      "slug":"advanced-surveying",
+    "img": "/books/Essence of Indian Knowledge & Tradition FRONT.png"
+  },
+  {
+    "slug": "advanced-surveying",
 
-      "img":"/books/Essence of Indian Knowledge & Tradition FRONT.png"
-    },
-    {
-      "slug":"advanced-surveying",
+    "name": "Hydraulics",
+    "Author": "Amish Rehalia & Muneesh Kumar",
+    "link": "/",
+    "price": "$35",
+    "img": "/books/Hydraulics Front.png"
+  },
+  {
+    "name": "Information Security",
+    "Author": "Parul Gupta",
+    "slug": "advanced-surveying",
 
-      "name": "Hydraulics",
-      "Author": "Amish Rehalia & Muneesh Kumar",
-      "link": "/",
-      "price": "$35",
-      "img":"/books/Hydraulics Front.png"
-    },
-    {
-      "name": "Information Security",
-      "Author": "Parul Gupta",
-      "slug":"advanced-surveying",
-
-      "link": "/",
-      "price": "$35",
-      "img":"/books/Information Security Front.png"
-    }
-  ]
-  
+    "link": "/",
+    "price": "$35",
+    "img": "/books/Information Security Front.png"
+  }
+]

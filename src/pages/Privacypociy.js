@@ -4,7 +4,7 @@ const Privacypociy = () => {
   return (
     <div className=" bg-white sm:py-5 py-5 px-5 sm:px-0  ">
       <div className="sm:px-0">
-        <h2 className="text-lg sm:text-h3 sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
+        <h2 className="text-lg sm:text-[30px] sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
           Privacy Policy
         </h2>
         <p className="my-3">
@@ -13,7 +13,7 @@ const Privacypociy = () => {
           personal information when you visit our website at{" "}
           <span className="text-[blue]"> https://trueedu.in/.</span>
         </p>
-        <h2 className="text-lg sm:text-h3 sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
+        <h2 className="text-lg sm:text-[30px] sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
           Information We Collect:
         </h2>
         <p className="font-bold my-3">Personal Information:</p>
@@ -35,7 +35,7 @@ const Privacypociy = () => {
           We use cookies and similar tracking technologies to enhance your
           browsing experience and analyze usage patterns on our Website.
         </p>
-        <h2 className="text-lg sm:text-h3 sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
+        <h2 className="text-lg sm:text-[30px] sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
           How We Use the Information:
         </h2>
         <p className="font-bold my-3">Provide and Maintain the Website:</p>
@@ -50,7 +50,7 @@ const Privacypociy = () => {
           may be of interest to you.
         </p>
 
-        <h2 className="text-lg sm:text-h3 sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
+        <h2 className="text-lg sm:text-[30px] sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
           Information Sharing and Disclosure:
         </h2>
         <p>
@@ -58,7 +58,7 @@ const Privacypociy = () => {
           to third parties without your consent, except as provided in this
           Privacy Policy.
         </p>
-        <h2 className="text-lg sm:text-h3 sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
+        <h2 className="text-lg sm:text-[30px] sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
           Third-Party Links:
         </h2>
         <p>
@@ -66,7 +66,7 @@ const Privacypociy = () => {
           control over the privacy practices or content of these websites and
           encourage you to review their privacy policies.
         </p>
-        <h2 className="text-lg sm:text-h3 sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
+        <h2 className="text-lg sm:text-[30px] sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
           Security
         </h2>
         <p>
@@ -74,21 +74,21 @@ const Privacypociy = () => {
           information. However, no method of transmission over the Internet or
           electronic storage is 100% secure.
         </p>
-        <h2 className="text-lg sm:text-h3 sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
+        <h2 className="text-lg sm:text-[30px] sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
           Your Choices:
         </h2>
         <p>
           You may opt-out of receiving marketing communications from us by
           following the instructions in the communication.
         </p>
-        <h2 className="text-lg sm:text-h3 sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
+        <h2 className="text-lg sm:text-[30px] sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
           Changes to This Privacy Policy:
         </h2>
         <p>
           We reserve the right to update or change this Privacy Policy at any
           time. The revised policy will be posted on this page.
         </p>
-        <h2 className="text-lg sm:text-h3 sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
+        <h2 className="text-lg sm:text-[30px] sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
           Contact Us:
         </h2>
         <p>

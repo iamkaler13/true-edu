@@ -38,7 +38,7 @@ const Footer = () => {
                         <Link to="/about-us">About Us </Link>
                       </h6>
                       <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent    hover:text-white hover:border-b-[1px]    py-1 px-2 ">
-                        <Link to="/publish-With-us">Publish With Us</Link>
+                        <Link to="/our-team">Our Team</Link>
                       </h6>
                       <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent     hover:text-white hover:border-b-[1px]  py-1 px-2 ">
                         <Link to="/contact-us">Contact Us</Link>
@@ -54,8 +54,9 @@ Privacy Policy
                         </Link>
                       </h6>
                       <h6 className="  text-white   font-[200]  cursor-pointer btext-xl bg-transparent    hover:text-white hover:border-b-[1px]    py-1 px-2 ">
-                        <Link to="/our-team">
-Our team                        </Link>
+                        <Link to="/publish-with-us">
+
+Publish With Us                       </Link>
                       </h6>
                     </div>
                   </div>

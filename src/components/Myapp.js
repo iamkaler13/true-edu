@@ -6,7 +6,7 @@ const Myapp = () => {
     <div className=" mx-auto max-w-[90%] sm:max-w-[90%] md:max-w-[90%] lg:max-w-[90%] sm:py-10 py-6">
       <div className="mt-4 block sm:flex md:flex lg:flex justify-between items-center">
       <div className="sm:hidden block ">
-          <div className="relative w-auto h-auto sm:w-[550px] mt-[-40px]">
+          <div className="relative w-auto h-auto sm:w-[460px] mt-[-40px]">
        
             <img
               src="/mobile-app.svg"
@@ -17,7 +17,7 @@ const Myapp = () => {
         </div>
         <div className="text-center sm:text-left">
         
-            <h2 className="font-bold text-[45px] sm:leading-none leading-[50px] text-[#252C47] sm:mt-0 mt-4 sm:text-[64px] sm:leading-none">
+            <h2 className="font-bold text-[45px] sm:leading-none leading-[50px] text-[#252C47] sm:mt-0 mt-4 sm:text-[40px] sm:leading-none">
             Streamline your college studies with our app          </h2>
           <div className="block sm:w-[500px]">
 

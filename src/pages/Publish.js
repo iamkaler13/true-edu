@@ -3,12 +3,10 @@ import { Link } from "react-router-dom";
 const Publish = () => {
   return (
     <div className=" bg-white sm:py-10 py-0 px-5 sm:px-0  ">
-      <div className="block mt-10 sm:mt-[-70px] sm:flex md:flex lg:flex justify-evenly items-center gap-14 ">
+      <div className="block mt-10 sm:mt-[-70px] sm:flex md:flex lg:flex justify-evenly items-center gap-14 sm:gap-[9.5rem] ">
         <div className="">
-          <p className="uppercase font-semibold text-[16px] sm:text-xl text-[#4d6998] md:text-h6 mb-1 sm:mb-4 sm:ml-1 sm:leading-none">
-            True-Edu{" "}
-          </p>
-          <h2 className="sm:w-[473px] font-bold text-[#252C47] sm:mt-0 mt-1 text-[26px] sm:text-h3  sm:leading-none ">
+      
+          <h2 className="sm:w-[473px] font-bold text-[#252C47] sm:mt-0 mt-1 text-[26px] sm:text-[30px]  sm:leading-none ">
             Publish Your Book with Us
           </h2>
           <div className="block sm:w-[473px]">
@@ -21,7 +19,7 @@ const Publish = () => {
           </div>
         </div>
         <div className="">
-          <div className="relative w-auto h-auto sm:w-[550px] ]">
+          <div className="relative w-auto h-auto sm:w-[499px] ]">
             <img
               src="/mobile-app.svg"
               className="w-full mx-auto bg-contain !static sm:absolute"
@@ -32,7 +30,7 @@ const Publish = () => {
       </div>
 <div className="sm:px-10">
 
-      <h2 className="text-lg sm:text-h3 sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
+      <h2 className="text-lg sm:text-[30px] sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
         Why Choose True-Edu Publications?
       </h2>
       <ul className="flex flex-col gap-3">
@@ -53,7 +51,7 @@ const Publish = () => {
         </li>
 
       </ul>
-      <h2 className="text-lg sm:text-h3 sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
+      <h2 className="text-lg sm:text-[30px] sm:leading-8 my-2 sm:my-6 font-semibold text-heading">
         How to Get Started
       </h2>
       <p>
