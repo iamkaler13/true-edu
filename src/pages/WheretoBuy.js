@@ -6,7 +6,49 @@ const WheretoBuy = () => {
 {
   name:"Kharbanda Books Store, Sunder Nagar",
   number:"9418201112"
-}
+  },
+  {
+    name:"Sharma General Store, Hamirpur ",
+  number:"9418012913"
+
+  },
+  {
+    name:"Mohan Enterprises, Hamirpur",
+  number:"9882596453"
+
+  },{
+    name:"Abhinandan Books Store, Rehan",
+    number:"8629080495"
+  },
+  {
+    name:"Shakti Books Store, Chamba",
+    number:"8629080495"
+  },
+  {
+    name:"MB Sales, Banikhet",
+    number:"9418143609"
+  },
+  {
+    name:"Sethi Books Shop, Paonta Sahib",
+    number:"9816028889"
+  },
+  {
+    name:"Modern Book Shop, Kullu",
+    number:"7018410633"
+  },
+  {
+    name:"Amit Justa, Rohru",
+    number:"9816686525"
+  },
+  {
+    name:"Nikku Books, Ambota",
+    number:"7018898653"
+  },
+  {
+    name:"Prabhakar General Store, Talwar",
+    number:"9805946889"
+  },
+  
 
   ]
   return (
@@ -18,61 +60,13 @@ const WheretoBuy = () => {
       List of distributor/Retailors
       </h2>
       <ul className="flex flex-col gap-3">
+{data.map((ele)=>
         <li className="text-base">
           <p>
-          ⦁	Kharbanda Books Store, Sunder Nagar – 9418201112
+          ⦁	{ele.name} – <span className='text-[blue]'> <a href={`tel:${ele.number}`} >  {ele.number}</a></span>
           </p>
         </li>
-        <li className="text-base">
-          <p>
-          ⦁	Sharma General Store, Hamirpur - 9418012913
-              </p>
-        </li>
-        <li className="text-base">
-          <p>
-          ⦁	Mohan Enterprises, Hamirpur - 9882596453
-          </p>
-        </li>
-        <li className="text-base">
-          <p>
-          ⦁	Abhinandan Books Store, Rehan - 8629080495
-          </p>
-        </li>
-        <li className="text-base">
-          <p>
-          ⦁	Shakti Books Store, Chamba - 9882077515
-          </p>
-        </li>
-        <li className="text-base">
-          <p>
-          ⦁	MB Sales, Banikhet - 9418143609
-          </p>
-        </li>
-        <li className="text-base">
-          <p>
-          ⦁	Sethi Books Shop, Paonta Sahib - 9816028889
-          </p>
-        </li>
-        <li className="text-base">
-          <p>
-          ⦁	Modern Book Shop, Kullu - 7018410633
-          </p>
-        </li>
-        <li className="text-base">
-          <p>
-          ⦁	Amit Justa, Rohru - 9816686525
-          </p>
-        </li>
-        <li className="text-base">
-          <p>
-          ⦁	Nikku Books, Ambota - 7018898653
-          </p>
-        </li>
-        <li className="text-base">
-          <p>
-          ⦁	Prabhakar General Store, Talwar – 9805946889
-          </p>
-        </li>
+  )}
       </ul>
     </div>
 </div>  )
