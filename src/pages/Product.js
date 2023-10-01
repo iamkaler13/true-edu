@@ -97,9 +97,8 @@ const Product = () => {
             our books
           </p>
 
-          <h2 className="font-bold text-xl  sm:text-h2 text-center  sm:w-[896px] sm:!leading-[3.75rem] sm:mt-4 m-auto">
-            Dedicated to sharing knowledge and inspiration with the world
-          </h2>
+          <h2 className="font-bold text-xl  sm:text-[30px] text-center  sm:w-[896px] sm:!leading-[3.75rem] sm:mt-4 m-auto">
+          Committed to imparting knowledge and inspiration through our literary works.          </h2>
         </div>
       </div>
       <div className="filter-cards text-center sm:mt-[24px] pb-5 px-4 mt-[0px]">

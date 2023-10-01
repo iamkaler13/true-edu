@@ -4,6 +4,7 @@ import Myapp from "../components/Myapp";
 import Connect from "../components/Connect";
 import Heighlight from "../components/Heighlight";
 import LatestBook from "../components/LatestBook";
+import Benifits from "../components/Team";
 
 const Home = () => {
   return (

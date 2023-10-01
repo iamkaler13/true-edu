@@ -5,7 +5,7 @@ const Connect = () => {
     const images = [
        
     
-        { src: "/communication_channels/apple.svg", animation: "mobile leftimg_sec animation", link:"tel:7807585896"},
+        { src: "/communication_channels/Youtube.png", animation: "mobile leftimg_sec animation", link:"https://youtube.com/@trueeduofficial8882?si=mGZNqCl6q1Z_S9mG"},
         { src: "/facebook.svg", animation: "mobile leftimg_sec animation2",link:"https://www.facebook.com/TrueEduPublications" },
         { src: "/communication_channels/insta.svg", animation: "mobile leftimg_sec animation2",link:"https://www.instagram.com/trueedu_publications/" },
         { src: "/whatsapp.svg", animation: "mobile leftimg_sec animation3",link:"https://api.whatsapp.com/send?phone=7807585896" },
@@ -23,7 +23,7 @@ const Connect = () => {
             className={`${key === 4 ? "w-[63px]" : ""} relative h-auto w-[56px] sm:w-[65px] py-4 sm:pt-24 m-auto hover:text-white js-show-on-scroll`}
             key={key}
           >
-            <Link to={element.link}>
+            <Link to={element.link} target='_blank'>
             <img
               src={element.src}
               fill={true}

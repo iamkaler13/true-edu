@@ -51,9 +51,9 @@ const AboutUs = () => {
           interactions, from author collaborations to customer relationships,
           fostering trust and credibility.
         </p>
-        <p className="my-3">Lifelong Learning:</p>
+        <p className="my-3">⦁ Lifelong Learning:</p>
         <p className="my-3 sm:ml-5">
-          ⦁ Encouraging a culture of continuous learning and growth, we believe
+           Encouraging a culture of continuous learning and growth, we believe
           that education is a lifelong journey, and our materials inspire a
           thirst for knowledge beyond the classroom.
         </p>
