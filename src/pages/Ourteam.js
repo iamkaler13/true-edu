@@ -19,7 +19,7 @@ const Ourteam = () => {
         "Vivek Singh is the skilled lead Sotware developer responsible for designing and developing the True-Edu Publications website and Mobile App. With expertise in web technologies, they ensure an optimal and user-friendly online experience for our visitors. ",
       linkedin: "www.linkedin.com/in/vivek-singh-70bb911a6      ",
       instagram: "https://www.instagram.com/iamvivekaler/",
-      img: "/team/vivek.png",
+      img: "/team/Vivek.png",
       color:"#4d6997"
     },
     {

@@ -5,7 +5,7 @@ const Connect = () => {
     const images = [
        
     
-        { src: "/communication_channels/Youtube.png", animation: "mobile leftimg_sec animation", link:"https://youtube.com/@trueeduofficial8882?si=mGZNqCl6q1Z_S9mG"},
+        { src: "/communication_channels/YouTube.png", animation: "mobile leftimg_sec animation", link:"https://youtube.com/@trueeduofficial8882?si=mGZNqCl6q1Z_S9mG"},
         { src: "/facebook.svg", animation: "mobile leftimg_sec animation2",link:"https://www.facebook.com/TrueEduPublications" },
         { src: "/communication_channels/insta.svg", animation: "mobile leftimg_sec animation2",link:"https://www.instagram.com/trueedu_publications/" },
         { src: "/whatsapp.svg", animation: "mobile leftimg_sec animation3",link:"https://api.whatsapp.com/send?phone=7807585896" },
