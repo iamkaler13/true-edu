@@ -56,7 +56,7 @@ const SingleProduct = () => {
       </div>
       <div className="flex flex-row gap-[5rem] sm:gap-[9rem] sm:mt-[45px]">
         <div
-          className={`text-[18px] sm:text-[25px] font-semibold ${
+          className={`text-[15px] sm:text-[25px] font-semibold ${
             show == false ? " border-b-[2px] " : ""
           } border-[#4d6998] cursor-pointer`}
           onClick={() => setSHow(false)}
@@ -65,7 +65,7 @@ const SingleProduct = () => {
         </div>
 
         <div
-          className={`text-[18px] sm:text-[25px] font-semibold ${
+          className={`text-[15px] sm:text-[25px] font-semibold ${
             show == true ? " border-b-[2px] " : ""
           } border-[#4d6998] cursor-pointer`}
           onClick={() => setSHow(true)}
@@ -75,18 +75,18 @@ const SingleProduct = () => {
       </div>
       {show ? (
         <>
-          <p className="  text-left  text-[18px] my-3 sm:ml-[] sm:mt-3 text-heading">
+          <p className="  text-left text-[15px]  sm:text-[18px] my-3 sm:ml-[] sm:mt-3 text-heading">
             {data?.AbooutTheBook?.heading}
           </p>
-          <p className=" text-xl text-left  md:text-xl  sm:ml-[1rem] sm:mt-8   mt-[1.5rem] mb-[1.5rem] sm:mb-4 text-heading">
+          <div className=" text-left   sm:ml-[1rem] sm:mt-8   mt-[1.5rem] mb-[1.5rem] sm:mb-4 text-heading">
             {data?.AbooutTheBook?.content.map((ele) => (
               <>
-                <p className="text-[15px] font-semibold my-3">{ele?.name}</p>
-                <p className="text-[18px] my-3">{ele?.paragraph}</p>
+                <p className="text-[15px]  sm:text-[18px]  font-semibold my-3">{ele?.name}</p>
+                <p className="text-[15px]  sm:text-[18px] my-3">{ele?.paragraph}</p>
               </>
             ))}
-          </p>
-          <p className=" text-[18px] text-left  :ml-[rem] sm:mt-[0px]  mt-[1.5rem] mb-[1.5rem] sm:mb-4 text-heading">
+          </div>
+          <p className=" text-[15px]  sm:text-[18px] text-left  :ml-[rem] sm:mt-[0px]  mt-[1.5rem] mb-[1.5rem] sm:mb-4 text-heading">
             {data?.AbooutTheBook?.lastheading}
           </p>
           <div className="sm:p-4">
@@ -97,7 +97,7 @@ const SingleProduct = () => {
             )}
             {data?.practicals?.map((ele, key) => (
               <>
-                <p className="text-[18px]  my-4 sm:my-3">
+                <p className="text-[15px]  sm:text-[18px]  my-4 sm:my-3">
                   {key + 1}. {ele}
                 </p>
               </>
@@ -108,8 +108,8 @@ const SingleProduct = () => {
         < div className="sm:mt-3">
           {data.tableOfContents.map((ele) => (
             <>
-              <p className="text-[19px] font-semibold my-3">{ele?.name}</p>
-              <p className="text-[18px] my-3">{ele?.content}</p>
+              <p className="text-[15px]  sm:text-[18px] font-semibold my-3">{ele?.name}</p>
+              <p className="text-[15px]  sm:text-[18px] my-3">{ele?.content}</p>
             </>
           ))}
         </div>
