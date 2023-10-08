@@ -5,8 +5,8 @@
     "edition": "2nd Edition",
     "Author": "Dr. Vijay Lakshmi, Prerna Sharma & Vandna Chandel",
     "price": "249",
-    "slug": "Communication-Skills-in-English",
-    "img": "/books/communication Skills in English Front.png",
+    "slug": "communication-skills-in-english",
+    "img": "/books/Communication Skills In English Front.png",
     "category": "Applied Sciences",
     "semester": "First",
     "AbooutTheBook": {
@@ -737,7 +737,7 @@
     "Author": "Akhil Pundir",
     "price": "199",
     "slug": "wireless-communication",
-    "img": "/books/Wireless Communication Front.png",
+    "img": "/books/Wireless Communication front.png",
     "category": "computer engineering",
     "semester": "fourth",
     "AbooutTheBook": {

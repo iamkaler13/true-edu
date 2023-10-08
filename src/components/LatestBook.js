@@ -7,7 +7,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import product from "../data/product.json"
 const LatestBook = () => {
+  const [data,setData] = useState(product)
   var workflowslider = {
     arrows: true,
 autoplay :true,
@@ -38,38 +40,7 @@ autoplay :true,
       setLoading(false);
     }, 3000);
   }, []);
-  const data = [
-    {
-      name: "Introduction to DBMS ",
-      Author: "Madhu Dhiman",
-      link: "/new/features/workflow-builder",
-      img:"/books/Introduction to Dbms Front.png"
-    },
-    {
-      name: "Fundamental of Electical & Electronics Engineering ",
-      Author: "Avnish Paul",
-      link: "/",
-      img:"/books/Feee Front.png"
-    },
-    {
-      name: "Essence of Indian Knowledge & Tradition",
-      Author: "Puneet Sharma",
-      link: "/",
-      img:"/books/Essence of Indian Knowledge & Tradition FRONT.png"
-    },
-    {
-      name: "Hydraulics",
-      Author: "Amish Rehalia & Muneesh Kumar",
-      link: "/",
-      img:"/books/Hydraulics Front.png"
-    },
-    {
-      name: "Information Security",
-      Author: "Parul Gupta",
-      link: "/",
-      img:"/books/Information Security Front.png"
-    }
-  ];
+ 
 
   return (
     <div className="bg-[white] shadow-lg  special">
@@ -113,7 +84,7 @@ Our Latest Launches
                   </h3>
                 
                   <button className="text-[#FF5721] hover:text-heading my-3 sm:my-0 text-lg font-semibold dark:focus:ring-yellow-900 rounded-lg">
-                    <Link href={ele.link}> Learn more →</Link>
+                    <Link to={`/product/${ele.slug}`}> Learn more →</Link>
                   </button>
                 </div>
               </div>
