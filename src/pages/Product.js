@@ -1,11 +1,9 @@
 import React, { useEffect } from "react";
-
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ProductList } from "../features/Productlist/ProductList";
 const Product = () => {
- 
   const data = [
     "ALL",
     "Popular",
@@ -22,8 +20,7 @@ const Product = () => {
       id: 1,
       name: "Book 1",
       href: "#",
-      imageSrc:
-        "/product.jpg",
+      imageSrc: "/product.jpg",
       imageAlt: "Front of men's Basic Tee in Author.",
       price: "$35",
       color: "Author",
@@ -32,8 +29,7 @@ const Product = () => {
       id: 1,
       name: "Book 2",
       href: "#",
-      imageSrc:
-      "/product.jpg",
+      imageSrc: "/product.jpg",
       imageAlt: "Front of men's Basic Tee in Author.",
       price: "$35",
       color: "Author",
@@ -42,8 +38,7 @@ const Product = () => {
       id: 1,
       name: "Book 3",
       href: "#",
-      imageSrc:
-      "/product.jpg",
+      imageSrc: "/product.jpg",
       imageAlt: "Front of men's Basic Tee in Author.",
       price: "$35",
       color: "Author",
@@ -52,8 +47,7 @@ const Product = () => {
       id: 1,
       name: "Basic Tee",
       href: "#",
-      imageSrc:
-      "/product.jpg",
+      imageSrc: "/product.jpg",
       imageAlt: "Front of men's Basic Tee in Author.",
       price: "$35",
       color: "Author",
@@ -62,8 +56,7 @@ const Product = () => {
       id: 1,
       name: "Basic Tee",
       href: "#",
-      imageSrc:
-        "/product.jpg",
+      imageSrc: "/product.jpg",
       imageAlt: "Front of men's Basic Tee in Author.",
       price: "$35",
       color: "Author",
@@ -98,13 +91,13 @@ const Product = () => {
           </p>
 
           <h2 className="font-bold text-xl  sm:text-[30px] text-center  sm:w-[896px] sm:!leading-[3.75rem] sm:mt-4 m-auto">
-          Committed to imparting knowledge and inspiration through our literary works.          </h2>
+            Committed to imparting knowledge and inspiration through our
+            literary works.{" "}
+          </h2>
         </div>
       </div>
       <div className="filter-cards text-center sm:mt-[24px] pb-5 px-4 mt-[0px]">
         <div className="flex justify-between items-start sm:flex-row flex-col">
-     
-
           <div className="text-right h-[60px]  flex justify-end  w-[100%] sm:w-[220px]">
             <div className="relative w-[100%] sm:w-[220px] ">
               <div
@@ -139,8 +132,7 @@ const Product = () => {
           </div>
         </div>
       </div>
-    <ProductList/>
-    
+      <ProductList />
     </div>
   );
 };

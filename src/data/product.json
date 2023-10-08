@@ -1,93 +1,822 @@
 [
   {
-    "name": "Advanced  Surveying",
-    "Author": "Amish Rehalia & Himanshu Bagalwan",
-    "slug": "advanced-surveying",
-    "img": "/books/Advanced  Surveying Front.png",
-    "price": "$35",
-    "applicationPrice": "",
-    "isbn": "",
-    "AbooutTheBook": "",
-    "tableOfContents": [
-      {
-        "1": {
-          "name": "my book ",
-          "content": "gfhfxgfchvjbjn"
+    "name": "Communication Skills in English",
+    "isbn": "978-81-962529-5-3",
+    "edition": "2nd Edition",
+    "Author": "Dr. Vijay Lakshmi, Prerna Sharma & Vandna Chandel",
+    "price": "249",
+    "slug": "Communication-Skills-in-English",
+    "img": "/books/communication Skills in English Front.png",
+    "category": "Applied Sciences",
+    "semester": "First",
+    "AbooutTheBook": {
+      "heading": "This book has been specially designed for polytechnic diploma students and aspiring engineers. English being a second language in our country, most of the students face difficulty to find suitable environment to converse and practice their communication skills in English. This book targets to cover each of the basic skills of the language learning i.e. reading writing, listening and speaking. It also prepares the learners to be efficient in professional and business writing. ",
+      "content": [
+        {
+          "name": "",
+          "paragraph": "The book comprises of so many different concepts that are essential to learn English and become a good communicator and a good human being as well. It is a mixture of technical communication in order to get success in professional life and moral values that are important to create genuine human beings. The short stories and poems written by great authors are taken from the vast ocean of English literature. These are the literary pieces which are immortal and present a mesmerising picture in front of the reader. Each of them gives a moral lesson to its reader which is unforgettable. The literary works of O’ Henry, Jerome. K. Jerome, Nissim Ezekiel, Robert Frost, and Rabindranath Tagore are incredible and have the potential to elevate the mind and spirit. They both instruct and entertain. The grammar part of the book has been explained with facility and felicity. A detailed description is given to make the students understand the concept of communication, technical communication and soft skills for professional excellence."
         },
-        "2": {
-            "name": "my book ",
-            "content": "kjhgfcvbhj"
-          },
-          "3": {
-            "name": "my book ",
-            "content": "kjhgfcvbhj"
-          }
-
-      }
-   
+        {
+          "name": "",
+          "paragraph": "On the other hand in communication lab, listening skills, knowledge of phonetics, group discussion, role play, mock interviews, oral presentations, conversation practices etc. will enhance the communication skills of students and boost them to present their thoughts in a more confident way, leading to their personality development."
+        }
+      ],
+      "lastheading": ""
+    },
+    "tableOfContents": [
+      
+        {
+          "name": "Unit-1 Communication: Theory and Practice",
+          "content": "Basics of communication: Introduction, meaning and definition, process of communication etc, Types of communication: formal and informal verbal, non-verbal and written Barriers to effective communication. 3. 7Cs for effective communication (considerate concrete, concise, clear, complete, correct, courteous). 4. Art of Effective communication, A. Choosing words B. VoiceC. Modulation D. Clarity E. Time F. Simplification of words  5. Technical Communication."
+        },
+        {
+          "name": "Unit-2 Soft Skills for Professional Excellence",
+          "content": "1. Introduction: Soft Skills and Hard Skills. 2. Importance of soft skills. 3. Life skills: Self-awareness and Self-analysis, adaptability, resilience, emotional intelligence and empathy etc.4. Applying soft skills across cultures."
+        },
+        {
+          "name": "Unit-3: Reading Comprehension",
+          "content": "Comprehension, vocabulary enhancement and grammar exercises based on reading of the following texts: Section-1 Short Stories1. “The Gift of the Magi” by O. Henry. 2. “Uncle Podger Hangs a Picture” Jerome K. Jerome. Section-2 Poetry 1. “Night of the Scorpion” by Nissim Ezekiel. 2. “Stopping by Woods on a Snowy Evening” by Robert Frost.3. “Where the Mind is Without Fear” by Rabindranath Tagore."
+        },
+        {
+          "name": "Unit-4 Professional Writing",
+          "content": "1. The art of précis writing. 2. Letters: business and personal.3. Drafting e-mail, notices, minutes of a meeting etc."
+        },
+        {
+          "name": "Unit-5 Vocabulary and Grammar",
+          "content": "1. Glossary of administrative terms (English and Hindi).2. One-word substitution, Idioms and phrases etc. 3. Parts of speech, active and passive voice, tenses etc., Punctuation."
+        }
+      
+    ],
+    "practicals": [
+      "Listening Skills",
+      "Introduction to Phonetics",
+      "Speaking Skills"
     ]
   },
   {
-    "name": " Applied Mathematics-2",
+    "name": "Applied Physics-1",
+    "isbn": "978-81-962529-4-6",
+    "edition": "1st edition",
+    "Author": "Amit Pathak, Manoj Kumar Saini & Dr. Raj Kumar Jagota",
+    "price": "249",
+    "slug": "applied-Physics-1",
+    "img": "/books/Applied Physics-1 Front.png",
+    "category": "Applied Sciences",
+    "semester": "First",
+    "AbooutTheBook": {
+      "heading": "Most of the students generally tend to assume physics as a tough and complicated subject involving a plethora of formulae and equations. This book covers the basic scientific content of each unit topic wise in a clear and simple language, so as to make the student understand the basic concepts clearly. The subject matter of each topic has been given in a simple and sequential manner with fully labelled and explicit diagrams, so as to enable the student to study and grasp the concept on his own.",
+      "content": [
+        {
+          "name": "",
+          "paragraph": "Besides, the solved Numerical Based Examples given at the end of each unit have also been given topic wise. Which will give the student enough material for practice and understanding."
+        }
+      ],
+      "lastheading": "At the end of the book the ‘Practical’ Portion of the syllabus has been covered in which the knowledge about performing all the experiments has been given in detail."
+    },
+    "tableOfContents": [
+        {
+          "name": "At the end of the book the ‘Practical’ Portion of the syllabus has been covered in which the knowledge about performing all the experiments has been given in detail.",
+          "content": "Physical quantities: fundamental and derived, Units and systems of units (FPS, CGS and SI units), Dimensions and dimensional formulae of physical quantities, Principle of homogeneity of dimensions, Dimensional equations and their applications(conversion from one system of units to other, checking of dimensional equations and derivation of simple equations), Limitations of dimensional analysis. Errors in measurements (systematic and random), absolute error, relative error, error estimation and significant figures."
+        },
+        {
+          "name": "Unit 2: Force and Motion",
+          "content": "Scalar and Vector quantities – examples, representation of vector, types of vectors. Addition and Subtraction of Vectors, Triangle and Parallelogram law (Statement 13 only), Scalar and Vector Product, Resolution of a Vector and its application to inclined plane (Rectangular components) and lawn roller.Force, Momentum, Statement and derivation of conservation of linear momentum, its applications such as recoil of gun &rockets, Impulse and its applications.Circular motion, definition of angular displacement, angular velocity, angular acceleration, frequency, time period. Relation between linear and angular velocity, linear acceleration and angular acceleration (related numerical), Centripetal and Centrifugal forces with live examples, Expression and applications such as banking of roads and bending of cyclist."
+        },
+        {
+          "name": "Unit 3: Work, Power and Energy",
+          "content": "Work: Concept and units, examples of zero work, positive work and negative work Friction: concept, types, laws of limiting friction, coefficient of friction, methods for reducing friction and its engineering applications, Work done in moving an object on horizontal and inclined plane for rough and plane surfaces and related applications. Energy and its units, kinetic energy, gravitational potential energy with examples and derivations, Mechanical energy, conservation of mechanical energy for freely falling bodies, transformation of energy (examples). Power and its units, power and work relationship, calculation of power (numerical problems)."
+        },
+        {
+          "name": "Unit 4: Rotational Motion",
+          "content": "Translational and rotational motions with examples. Definition of torque and angular momentum and their examples. Conservation of angular momentum (quantitative) and its applications. Moment of inertia and its physical significance, radius of gyration for rigid body, Theorems of parallel and perpendicular axes (statements only), Moment of inertia of rod, disc, ring and sphere (hollow and solid): (Formulae only)."
+        },
+        {
+          "name": "Unit 5: Properties of Matter",
+          "content": "Elasticity: Definition of stress and strain, different types of modulii of elasticity, Hooke’s law, significance of stress-strain curve. Pressure: definition, units, atmospheric pressure, gauge pressure, absolute pressure, Fortin’s Barometer and its applications. 14 Surface tension: concept, units, cohesive and adhesive forces, angle of contact, Ascent Formula (No derivation), applications of surface tension, effect of temperature and impurity on surface tension."
+        },
+        {
+          "name": "Unit 6: Heat and Thermometry",
+          "content": "Concept of heat and temperature. Modes of heat transfer (conduction, convection and radiation with examples), scales of temperature and their relationship, Types of Thermometer (Mercury thermometer, bimetallic thermometer, Platinum resistance thermometer, Pyrometer) and their uses. Expansion of solids, liquids and gases, coefficient of linear, surface and cubical expansions and relation amongst them, Co-efficient of thermal conductivity."
+        }
+      
+ 
+    ],
+    "practicals": [
+      "To measure length, radius of a given cylinder, a test tube and a beaker using a Vernier caliper and find volume of each object.",
+      "To determine diameter of a wire, a solid ball and thickness of cardboard using a screw gauge. ",
+      "To determine radius of curvature of a convex and a concave mirror/surface using a spherometer. ",
+      "To verify triangle and parallelogram law of forces. ",
+      "To find the co-efficient of friction between wood and glass using a horizontal board.",
+      "To determine force constant of a spring using Hook’s Law.",
+      "To verify law of conservation of mechanical energy (PE to KE).",
+      "To find the moment of inertia of a flywheel.",
+      "To find the coefficient of linear expansion of the material of a rod. ",
+      "To determine atmospheric pressure at a place using Fortin’s barometer.",
+      "To measure room temperature and temperature of a hot bath using mercury thermometer and convert it into different scales."
+    ]
+  },
+  {
+    "name": "Concrete Technology",
+    "isbn": "978-81-962529-6-0",
+    "edition": "1st edition",
+    "Author": "Puneet Sharma, Namish Rana",
+    "price": "249",
+    "slug": "concrete-technology",
+    "img": "/books/CONCRETE TECHNOLOGY front.png",
+    "category": "civil engineering",
+    "semester": "3rd",
+    "AbooutTheBook": {
+      "heading": "The ‘Concrete Technolgy’ is one of the basic subjects for Civil engineering students. It is generally taught in the Diploma. The book is written in simple language so that students can understand the concepts easily.",
+      "content": [
+        {
+          "name": "",
+          "paragraph": "This book contains five chapters in total i.e., Cement-Aggregates and Water, Concrete, Concrete Mix Design and Testing of Concrete (Quality Control of Concrete-Chemical Admixture - Special concrete and Extreme Weather Concreting. In addition to this book also contains questions at the end of each chapter to recall and apply the concepts covered in each chapter. "
+        },
+        {
+          "name": "",
+          "paragraph": "Practical Manual is also attached at the end of this book to make sure that student is able to understand the significance of the experiment conducted and will be able to link the theoretical concept to the practical for better understanding. The reader will be able understand the properties of cement, aggregates and water in concrete, characteristics of concrete, testing and role of admixtures in concrete."
+        }
+      ],
+      "lastheading": "I hope this book shall be liked by the readers. Also, suggestions from readers for its improvement are welcomed."
+    },
+    "tableOfContents": [
+      
+        {
+          "name": "Unit – I Cement, Aggregates and Water",
+          "content": "• Physical properties of OPC and PPC: fineness, standard consistency, setting time, soundness, compressive streng Different grades of OPC and relevant BIS codes • Storage of cement and effect of storage on properties of cement. • BIS Specifications and field applications of different types of cements: Rapid hardening, Low heat, Portland pozzolana, Sulphate resisting, Blast furnace slag, High Alumina and White cement. • Aggregates: Requirements of good aggregate, Classification according to size and shape. • Fine aggregates: Properties, size, specific gravity, bulk density, water absorption and bulking, fineness modulus and grading zone of sand, silt content and their specification as per IS 383. Concept of crushed Sand. • Coarse aggregates: Properties, size, shape, surface texture, water absorption, soundness, specific gravity and bulk density, fineness modulus of coarse aggregate, grading of coarse aggregates, crushing value, impact value and abrasion value of coarse aggregates with specifications. • Water: Quality of water, impurities in mixing water and permissible limits for solids as per IS: 456."
+        },
+        {
+          "name": "Unit – II Concrete",
+          "content": "• Concrete: Different grades of concrete, provisions of IS 456. • Duff Abraham water cement (w/c) ratio law, significance of w/c ratio, selection of w/c ratio for different grades, maximum w/c ratio for different grades of concrete for different exposure conditions as per IS 456. • Properties of fresh concrete: Workability: Factors affecting workability of concrete. Determination of workability of concrete by slump cone, compaction factor, Vee-Bee Consistometer. Value of workability requirement for different types of concrete works. Segregation, bleeding, and preventive measures. • Properties of Hardened concrete: Strength, Durability, Impermeability."
+        },
+        {
+          "name": "Unit – III Concrete Mix Design and Testing of Concrete",
+          "content": "• Concrete mix design: Objectives, methods of mix design, study of mix design as per IS 10262 (only procedural steps). • Testing of concrete, determination of compressive strength of concrete cubes at different ages, interpretation, and co-relation of test results.   • Non- destructive testing of concrete: Rebound hammer test, working principle of rebound hammer and 15 factor affecting the rebound index, Ultrasonic pulse velocity test as per IS 13311 (part 1 and 2), Importance of NDT tests."
+        },
+        {
+          "name": "Unit – IV Quality Control of Concrete",
+          "content": " Concreting Operations: Batching, Mixing, Transportation, Placing, Compaction, Curing and Finishing of   concrete.  Forms for concreting: Different types of form works for beams, slabs, columns, materials used for form work, requirement of good form work. Stripping time for removal of form works per IS 456.  Waterproofing: Importance and need of waterproofing, methods of waterproofing and materials used for waterproofing.  Joints in concrete construction: Types of joints, methods for joining old and new concrete, materials used for filling joints."
+        },
+        {
+          "name": "Unit – V Chemical Admixture, Special Concrete and Extreme Weather concreting",
+          "content": "• Admixtures in concrete: Purpose, properties and application for different types of admixtures such as accelerating admixtures, retarding admixtures, water reducing admixtures, air entraining admixtures and super plasticizers. • Special Concrete: Properties, advantages and limitation of following types of Special concrete: Ready mix Concrete, Fibre Reinforced Concrete, High performance Concrete Self-compacting concrete and light weight concrete. • Cold weather concreting: effect of cold weather on concrete, precautions to be taken while concreting in cold weather condition. • Hot weather concreting: effect of hot weather on concrete, precautions to be taken while concreting in hot weather condition."
+        }
+      
+    ],
+    "practicals": [
+      "Determine fineness of cement by Blaine’s air permeability apparatus or by sieving.",
+      "Determine specific gravity, standard consistency, initial and final setting times of cement.",
+      "Determine compressive strength of cement. ",
+      "Determine silt content in sand. ",
+      "Determine bulking of sand.",
+      "Determine bulk density of fine and coarse aggregates.",
+      "Determine water absorption of fine and coarse aggregates. ",
+      "Determine Fineness modulus of fine aggregate by sieve analysis. ",
+      "Determine elongation and flakiness index of coarse aggregates.",
+      "Determine workability of concrete by slump cone test. ",
+      "Determine workability of concrete by compaction factor test. ",
+      "To prepare concrete mix of a particular grade and determine compressive strength of concrete for 7 and 28 days. ",
+      "Demonstration of NDT equipment."
+    ]
+  },
+  {
+    "name": "Mechanics of Materials",
+    "isbn": "978-81-962529-7-7",
+    "edition": "1st edition",
+    "Author": "Vibhor Sharma, Aman",
+    "price": "299",
+    "slug": "mechanics-of-materials",
+    "img": "/books/MECHANICS OF MATERIALS Front.png",
+    "category": "civil engineering",
+    "semester": "3rd",
+    "AbooutTheBook": {
+      "heading": "Most of the students generally tend to assume Mechanics of Materials as a tough and complicated subject involving a plethora of formulae and equations. This book covers the basic content of each unit topic wise in a clear and simple language, so as to make the student understand the basic concepts clearly. The subject matter of each topic has been given in a simple and sequential manner, so as to enable the student to study and grasp the concept on his own.",
+      "content": [],
+      "lastheading": "Besides, the solved Numerical Based Examples given at the end of each unit have also been given topic wise, which will give the student enough material for practice and understanding."
+    },
+    "tableOfContents": [
+      
+        {
+          "name": "Unit – 1 Moment of Inertia ",
+          "content": "Moment of inertia (M.I.): Definition, M.I. of plane lamina, Radius of gyration, section modulus, Parallel and Perpendicular axes theorems (without derivations), M.I. of rectangle, square, circle, semi-circle, quarter circle and triangle section (without derivations). M.I. of symmetrical and unsymmetrical I-section, Channel section, T-section, Angle section, Hollow sections about centroidal axes. Polar Moment of Inertia of solid circular sections. "
+        },
+        {
+          "name": "Unit– 2 Simple Stresses and Strains ",
+          "content": "Definition of rigid, elastic and plastic bodies, Definition of stress, strain, elasticity, Hook’s law, Elastic limit, Modulus of elasticity. Type of Stresses-Normal, Direct, Bending and Shear and nature of stresses i.e., Tensile and Compressive stresses. Standard stress strain curve for tor steel bar under tension, Yield stress, Proof stress, Ultimate stress, Strain at various critical points, Percentage elongation and Factor of safety. Deformation of body due to axial force, forces applied at intermediate sections, Maximum and minimum stress induced, Composite section under axial loading. Concept of temperature stresses and strain, Stress and strain developed due to temperature variation in homogeneous simple bar (no composite section) Longitudinal and lateral strain, Modulus of Rigidity, Poisson’s ratio, volumetric strain, change in volume, Bulk modulus (Introduction only). Relation between modulus of elasticity, modulus of rigidity and bulk modulus (without derivation). "
+        },
+        {
+          "name": "Unit– 3 Shear Force and Bending Moment",
+          "content": "Types of supports, beams, and loads. Concept and definition of shear force and bending moment, Relation between load, shear force and bending moment (without derivation). Shear force and bending moment diagram for cantilever and simply supported beams subjected to point loads, uniformly distributed loads (combination of any two types of loading), point of contra flexure. "
+        },
+        {
+          "name": "Unit– 4 Bending and Shear Stresses in beams ",
+          "content": "Concept and theory of pure bending, assumptions, flexural equation (without derivation), bending stresses and their nature, bending stress distribution diagram. Concept of moment of resistance and simple numerical problems using flexural equation. Shear stress equation (without derivation), relation between maximum and average shear stress for rectangular and circular section, shear stress distribution diagram. Shear stress distribution for square, rectangular, circle, hollow, angle sections, channel section, I-section, T section. Simple numerical problems based on shear equation. "
+        },
+        {
+          "name": "Unit– 5 Columns ",
+          "content": "Concept of compression member, short and long column, Effective length, Radius of gyration, Slenderness ratio, Types of end condition for columns, Buckling of axially loaded columns. Euler’s theory, assumptions made in Euler’s theory and its limitations, Application of Euler’s equation to calculate buckling load. Rankine’ s formula and its application to calculate crippling load. Concept of working load/safe load, design load and factor of safety."
+        }
+    
+    ],
+    "practicals": [
+      "Study and understand the use and components of Universal Testing Machine (UTM). ",
+      "Perform Tension test on mild steel as per IS:432(1). ",
+      "Perform tension test on Tor steel as per IS:1608, IS:1139. ",
+      "Determine Water Absorption on bricks per IS:3495 (part II), IS:1077 or tile IS:1237. ",
+      "Determine Compressive strength of dry and wet bricks as per IS:3495(part I), IS:1077. ",
+      "Conduct Abrasion Test on flooring tiles (anyone) e.g., Mosaic tiles, Ceramic Tiles as per IS: 13630 (part7), Cement Tile as per IS: 1237. ",
+      "Perform Single Shear and double shear test on any two metals e.g., Mild steel/ brass/aluminium/copper / cast iron etc as per IS:5242.  ",
+      "Plot Shear force and Bending Moment diagrams for simply supported beams. ",
+      "Conduct Flexural test on timber beam on rectangular section in both orientations as per IS:1708, IS:2408. ",
+      "Conduct Flexure test on floor tiles IS:1237, IS:13630 or roofing tiles as per IS:654, IS:2690."
+    ]
+  },
+  {
+    "name": "Applied Physics-II",
+    "isbn": "978-81-962529-2-2",
+    "edition": "1st edition",
+    "Author": "Manoj Kumar Saini, Amit Pathak",
+    "price": "249",
+    "slug": "applied-physics-II",
+    "img": "/books/Applied Physics-2 Front.png",
+    "category": "Applied Sciences",
+    "semester": "2nd",
+    "AbooutTheBook": {
+      "heading": "Applied Physics-2: Principles and Applications, is a comprehensive textbook that delves into the practical applications of physics principles in various specialized areas. It is tailored to provide a solid understanding of electromagnetism, optics, semiconductor physics, acoustics, thermodynamics, nuclear physics, and modern physics. Each chapter explores fundamental concepts and then demonstrates their real-world applications in relevant fields.",
+      "content": [],
+      "lastheading": ""
+    },
+    "tableOfContents": [
+      {    "name": "UNIT - 1: Wave motion and its applications ",
+          "content": "Wave motion, transverse and longitudinal waves with examples, definitions of wave velocity, frequency and wave length and their relationship, Sound and light waves and their properties, wave equation (y = rsin ωt) amplitude, phase, phase difference, Principle of superposition of waves and beat formation. Simple Harmonic Motion (SHM): definition, expression for displacement, velocity, acceleration, time period, frequency etc. Free, forced and resonant vibrations and their examples. Acoustics of buildings – reverberation, reverberation time, echo, noise, coefficient of absorption of sound, methods to control reverberation time and their applications. Ultrasonic waves – Introduction and properties, engineering and medical applications of ultrasonic. "
+        },
+        {
+          "name": "UNIT - 2: Optics ",
+          "content": "Basic optical laws- reflection and refraction, refractive index, Images and image formation by mirrors, lens and thin lenses, lens formula, power of lens, magnification. Total internal reflection, Critical angle and conditions for total internal reflection, applications of total internal reflection in optical fiber. Optical Instruments- simple and compound microscope, astronomical telescope in normal adjustment and their magnifying powers."
+        },
+        {
+          "name": "UNIT - 3: Electrostatics ",
+          "content": "Coulomb’s law, unit of charge. Electric field, Electric lines of force and their properties. Electric flux, Electric potential and potential difference, Gauss’s law. Capacitor and its working, Capacitance and its units. Capacitance of a parallel plate capacitor, Series and parallel combination of capacitors (related numerical), dielectric and its effect on capacitance, dielectric break down. "
+        },
+        {
+          "name": "UNIT - 4: Current Electricity ",
+          "content": "Electric Current and its units, Direct and alternating current. Resistance and its units, Specific resistance, Conductance, Specific conductance, Series and parallel combination of resistances. Factors affecting resistance of a wire, carbon resistances and colour coding. Ohm’s law and its verification, Kirchhoff’s laws. Concept of terminal potential difference and Electro motive force (EMF) Heating effect of current, Electric power, Electric energy and its units (related numerical problems), Advantages of Electric Energy over other forms of energy. "
+        },
+        {
+          "name": "UNIT - 5: Electromagnetism ",
+          "content": "Types of magnetic materials: dia, para and ferromagnetic with their properties. Magnetic field and its units, magnetic intensity, magnetic lines of force, magnetic flux and units, magnetization. Lorentz force (force on moving charge in magnetic field), Force on current carrying conductor. Moving coil galvanometer; principle, construction and working, Conversion of a galvanometer into ammeter and voltmeter. "
+        },
+        {
+          "name": "UNIT - 6: Semiconductor Physics ",
+          "content": "Energy bands in solids, Types of materials (insulator, semi-conductor, conductor), intrinsic and extrinsic semiconductors. p-n junction, junction diode and V-I characteristics. Diode as rectifier – half wave and full wave rectifier (centre taped). Photocells, Solar cells; working principle and engineering applications. "
+        },
+        {
+          "name": "UNIT - 7: Modern Physics ",
+          "content": "Lasers: Energy levels, ionization and excitation potentials; spontaneous and stimulated emission; population inversion, pumping methods, optical feedback. Types of lasers; Ruby, He-Ne and semiconductor, laser characteristics, engineering and medical applications of lasers. Fiber Optics: Introduction to optical fibers, light propagation, acceptance angle and numerical aperture,fiber types, applications in; telecommunication, medical and sensors."
+        }
+      
+    ],
+    "practicals": [
+      "To determine and verify the time period of a cantilever. ",
+      "To determine velocity of ultrasonic in different liquids using ultrasonic interferometer. ",
+      "To verify laws of reflection from a plane mirror/ interface.",
+      "To verify laws of refraction (Snell’s law) using a glass slab.",
+      "To determine focal length and magnifying power of a convex lens. ",
+      "To verify Ohm’s law by plotting graph between current and potential difference. ",
+      "To verify laws of resistances in series and parallel combination. ",
+      "To verify Kirchhoff’s laws using electric circuits. ",
+      "To study the dependence of capacitance of a parallel plate capacitor on various factors and determines permittivity of air at a place. ",
+      "To find resistance of a galvanometer by half deflection method. ",
+      "To convert a galvanometer into an ammeter. ",
+      "To convert a galvanometer into a voltmeter. ",
+      "To draw V-I characteristics of a semiconductor diode (Ge, Si) and determine its knee voltage.  ",
+      "To verify inverse square law of radiations using a photo-electric cell. ",
+      "To measure wavelength of a He-Ne/diode laser using a diffraction grating. ",
+      "To measure numerical aperture (NA) of an optical fiber."
+    ]
+  },
+  {
+    "name": "Applied Mathematics-2",
+    "isbn": "978-81-965686-6-5",
+    "edition": "1st edition",
     "Author": "Gyan Chand",
-    "slug": "advanced-surveying",
-
-    "link": "/new/features/workflow-builder",
+    "price": "249",
+    "slug": "applied-mathematics-2",
     "img": "/books/Applied Mathematics-2 Front.png",
-    "price": "$35"
+    "category": "Applied Sciences",
+    "semester": "2nd",
+    "AbooutTheBook": {
+      "heading": "Applied Mathematics-2: Concepts and Problem-Solving, is a textbook designed to provide students with a thorough understanding of advanced mathematical concepts and their practical applications. It builds upon the foundations of calculus, linear algebra, and differential equations, extending the knowledge to cover topics such as complex analysis, numerical methods, and probability theory. The book emphasizes problem-solving techniques and their relevance to engineering, science, and other disciplines.",
+      "content": [],
+      "lastheading": ""
+    },
+    "tableOfContents": [
+      
+        {
+          "name": "UNIT - I: Determinants and Matrices ",
+          "content": "Elementary properties of determinants up to 3rd order, consistency of equations, Crammer’s rule. Algebra of matrices, Inverse of a matrix, matrix inverse method to solve a system of linear equations in 3 variables. "
+        },
+        {
+          "name": "UNIT - II: Integral Calculus ",
+          "content": "Integration as inverse operation of differentiation. Simple integration by substitution, by parts and by partial fractions (for linear factors only). Use of formulae for solving problems where m and n are positive integers. Applications of integration for i). Simple problem on evaluation of area bounded by a curve and axes. ii.) Calculation of Volume of a solid formed by revolution of an area about axes. (Simple problems). "
+        },
+        {
+          "name": "UNIT - III: Co-Ordinate Geometry ",
+          "content": "Equation of straight line in various standard forms (without proof), inter section of two straight lines, angle between two lines. Parallel and perpendicular lines, perpendicular distance formula. General equation of a circle and its characteristics. To find the equation of a circle, given: i. Centre and radius, ii. Three points lying on it and iii. Coordinates of end points of a diameter; 40 Definition of conics (Parabola, Ellipse, Hyperbola) their standard equations without proof. Problems on conics when their foci, directrices or vertices are given. "
+        },
+        {
+          "name": "UNIT-IV : Differential Equations ",
+          "content": "Solution of first order and first degree differential equation by variable separable method (simple problems)."
+        }
+      
+    ],
+    "practicals": []
   },
   {
-    "name": " Applied Mathematics-2",
-    "Author": "Gyan Chand",
-    "slug": "advanced-surveying",
-
-    "link": "/new/features/workflow-builder",
-    "img": "/books/Applied Mathematics-2 Front.png",
-    "price": "$35"
+    "name": "Engineering Mechanics",
+    "isbn": "978-81-962529-1-5",
+    "edition": "1st edition",
+    "Author": "Amish Rehalia, Muneesh Kumar",
+    "price": "249",
+    "slug": "engineering-mechanics",
+    "img": "/books/Engineering mechanics.png",
+    "category": "Applied Sciences",
+    "semester": "2nd",
+    "AbooutTheBook": {
+      "heading": "Engineering Mechanics, is a foundational textbook that provides a comprehensive understanding of the principles governing the behaviour of physical bodies and their applications in the field of engineering. It covers fundamental concepts of mechanics, including statics and dynamics, to equip students with the necessary tools to analyse and solve engineering problems related to structures, forces, and motion.",
+      "content": [],
+      "lastheading": ""
+    },
+    "tableOfContents": [
+      {
+      
+          "name": "Unit – I Basics of mechanics and force system ",
+          "content": "Significance and relevance of Mechanics, Applied mechanics, Statics, Dynamics. Space, time, mass, particle, flexible body and rigid body. Scalar and vector quantity, Units of measurement (SI units) - Fundamental units and derivedunits. Force – unit, representation as a vector and by Bow’s notation, characteristics and effects of a force, Principle of transmissibility of force, Force system and its classification. Resolution of a force - Orthogonal components of a force, moment of a force, Varignon’s Theorem. Composition of forces – Resultant, analytical method for determination of resultant for concur- rent, non-concurrent and parallel co-planar force systems – Law of triangle, parallelogram and polygon of forces. "
+        },
+        {
+          "name": "Unit– II Equilibrium ",
+          "content": "Equilibrium and Equilibrant, Free body and Free body diagram, Analytical and graphical methods of analyzing equilibrium. Lami’s Theorem – statement and explanation, Application for various engineering  problems. Types of beam, supports (simple, hinged, roller and fixed) and loads acting on beam (vertical point load, uniformly distributed load), Beam reaction for cantilever, simply supported beam with or without overhang – subjected to combination of Point load and uniformly distributed load. Beam reaction graphically for simply supported beam subjected to vertical point loads only. "
+        },
+        {
+          "name": "Unit– III Friction ",
+          "content": "Friction and its relevance in engineering, types and laws of friction, limiting equilibrium, limiting friction, co-efficient of friction, angle of friction, angle of repose, relation between co-efficient of friction and angle of friction. Equilibrium of bodies on level surface subjected to force parallel and inclined to plane. Equilibrium of bodies on inclined plane subjected to force parallel to the plane only. "
+        },
+        {
+          "name": "Unit– IV Centroid and centre of gravity ",
+          "content": "Centroid of geometrical plane figures (square, rectangle, triangle, circle, semi-circle, quarter circle). Centroid of composite figures composed of not more than two geometrical figures. Centre of Gravity of simple solids (Cube, cuboid, cone, cylinder, sphere, hemisphere) Centre of Gravity of composite solids composed of not more than two simple solids. "
+        },
+        {
+          "name": "Unit – V Simple lifting machine ",
+          "content": "Simple lifting machine, load, effort, mechanical advantage, applications and advantages. Velocity ratio, efficiency of machines, law of machine. Ideal machine, friction in machine, maximum Mechanical advantage and efficiency, reversible and non-reversible machines, conditions for reversibility. Velocity ratios of Simple axle and wheel, Differential axle and wheel, Worm and worm wheel, Simple screw jack."
+        }
+    
+    ],
+    "practicals": [
+      "To study various equipments related to Engineering Mechanics. ",
+      "To find the M.A., V.R., Efficiency and law of machine for Differential Axle and Wheel.",
+      "To find the M.A., V.R., Efficiency and law of machine for Simple Screw Jack.",
+      "Derive Law of machine using Worm and worm wheel.",
+      "Determine resultant of concurrent force system applying Law of Polygon of forces using forcetable. ",
+      "Determine resultant of concurrent force system graphically.",
+      "Determine resultant of parallel force system graphically.",
+      "Verify Lami’s theorem.",
+      "Study forces in various members of Jib crane.",
+      "Determine support reactions for simply supported beam.",
+      "Obtain support reactions of beam using graphical method.",
+      "Determine coefficient of friction for motion on horizontal and inclined plane.",
+      "Determine centroid of geometrical plane figure."
+    ]
   },
   {
-    "name": "Introduction to DBMS ",
-    "Author": "Madhu Dhiman",
-    "slug": "advanced-surveying",
-
-    "link": "/new/features/workflow-builder",
-    "img": "/books/Introduction to Dbms Front.png",
-    "price": "$35"
+    "name": "Enviornmental Science",
+    "isbn": "978-81-962529-9-1",
+    "edition": "1st edition",
+    "Author": "Aman Saini, Manoj Kumar Saini",
+    "price": "199",
+    "slug": "enviornmental-science",
+    "img": "/books/Environmental Science Front.png",
+    "category": "Applied Sciences",
+    "semester": "2nd",
+    "AbooutTheBook": {
+      "heading": "Environmental Science, is a comprehensive textbook that explores the multidisciplinary nature of environmental science, covering various aspects of the environment, ecosystems, natural resources, and human impacts. It delves into the complex interactions between human society and the natural world, providing insights into sustainable practices and environmental conservation.",
+      "content": [],
+      "lastheading": ""
+    },
+    "tableOfContents": [
+      
+        {
+          "name": "Unit-1 Ecosystem ",
+          "content": "Structure of ecosystem, Biotic & Abiotic components Food chain and food web Aquatic (Lentic and Lotic) and terrestrial ecosystem Carbon, Nitrogen, Sulphur, Phosphorus cycle. Global warming -Causes, effects, process, Green House Effect, Ozone depletion. "
+        },
+        {
+          "name": "Unit– 2 Air and, Noise Pollution ",
+          "content": "Definition of pollution and pollutant, Natural and manmade sources of air pollution (Refriger- ants, I.C., Boiler), Air Pollutants: Types, Particulate Pollutants: Effects and control (Bag filter, Cyclone separator, Electrostatic Precipitator). Gaseous Pollution Control: Absorber, Catalytic Converter, Effects of air pollution due to Refrigerants, I.C., Boiler. Noise pollution: sources of pollution, measurement of pollution level, Effects of Noise pollution, Noise pollution (Regulation and Control) Rules, 2000. "
+        },
+        {
+          "name": "Unit- 3 Water and Soil Pollution ",
+          "content": "Sources of water pollution, Types of water pollutants, Characteristics of water pollutants Turbidity, pH, total suspended solids, total solids BOD and COD: Definition, calculation. Waste Water Treatment: Primary methods: sedimentation, froth floatation, Secondary methods: Activated sludge treatment, Trickling filter, Bioreactor, Tertiary Method: Membrane separation technology, RO (reverse osmosis). Causes, Effects and Preventive measures of Soil Pollution: Causes-Excessive use of Fertilizers, Pesticides and Insecticides, Irrigation, E-Waste. "
+        },
+        {
+          "name": "Unit– 4 Renewable sources of Energy ",
+          "content": "Solar Energy: Basics of Solar energy. Flat plate collector (Liquid & Air). Theory of flat plate col- lector. Importance of coating. Advanced collector. Solar pond. Solar water heater, solar dryer. Solar stills. Biomass: Overview of biomass as energy source. Thermal characteristics of biomass as fuel. Anaerobic digestion. Biogas production mechanism. Utilization and storage of biogas. Wind energy: Current status and future prospects of wind energy. Wind energy in India. Environmental benefits and problem of wind energy. New Energy Sources: Need of new sources. Different types new energy sources. Applications of (Hydrogen energy, Ocean energy resources, Tidal energy conversion.) Concept, origin and power plants of geothermal energy. "
+        },
+        {
+          "name": "Unit-5 Solid Waste Management, ISO 14000 & Environmental Management ",
+          "content": "Solid waste generation- Sources and characteristics of: Municipal solid waste, E- waste, bio- medical waste. Metallic wastes and Non-Metallic wastes (lubricants, plastics, rubber) from industries. Collection and disposal: MSW (3R, principles, energy recovery, sanitary landfill), Hazardous. Waste Air quality act 2004, air pollution control act 1981 and water pollution and control act1996.Structure and role of Central and state pollution control board. Concept of Carbon Credit, Carbon Footprint. Environmental management in fabrication industry.ISO14000: Implementation in industries, Benefits."
+        }
+      
+    ],
+    "practicals": []
   },
   {
-    "name": "Fundamental of Electical & Electronics Engineering ",
-    "Author": "Avnish Paul",
-    "link": "/",
-    "price": "$35",
-    "slug": "advanced-surveying",
-
-    "img": "/books/Feee Front.png"
-  },
-  {
-    "name": "Essence of Indian Knowledge & Tradition",
-    "Author": "Puneet Sharma",
-    "link": "/",
-    "price": "$35",
-    "slug": "advanced-surveying",
-
-    "img": "/books/Essence of Indian Knowledge & Tradition FRONT.png"
-  },
-  {
-    "slug": "advanced-surveying",
-
     "name": "Hydraulics",
-    "Author": "Amish Rehalia & Muneesh Kumar",
-    "link": "/",
-    "price": "$35",
-    "img": "/books/Hydraulics Front.png"
+    "isbn": "978-81-965686-4-1",
+    "edition": "1st edition",
+    "Author": "Ashish Patial, Amish Rehalia, Muneesh Kumar",
+    "price": "249",
+    "slug": "hydraulics",
+    "img": "/books/Hydraulics Front.png",
+    "category": "civil engineering",
+    "semester": "fourth",
+    "AbooutTheBook": {
+      "heading": "Hydraulics, is a comprehensive textbook that provides a fundamental understanding of hydraulic principles and their practical applications in various engineering and industrial contexts. The book covers the basic principles of fluid mechanics, hydraulic components, systems, and their applications in hydraulic machinery and control systems",
+      "content": [],
+      "lastheading": ""
+    },
+    "tableOfContents": [
+      
+        {
+          "name": "Unit – 1 Pressure measurement and Hydrostatic pressure ",
+          "content": "• Technical terms used in Hydraulics –fluid, fluid mechanics, hydraulics, hydrostatics, and hydrodynamics - ideal and real fluid, application of hydraulics. • Physical properties of fluid – density-specific volume, specific gravity, surface tension, capillarity, and viscosity-Newton’s law of viscosity. • Various types of pressure – Atmospheric Pressure, Gauge Pressure, Absolute Pressure, Vacuum Pressure. Concept of Pressure head and its unit, Pascal’s law of fluid pressure and its uses. • Measurement of differential Pressure by different methods. • Variation of pressure with depth, Pressure diagram, hydrostatic pressure and center of pressure on immersed surfaces and on tank walls. • Determination of total pressure and center of pressure on sides and bottom of water tanks, sides and bottom of tanks containing two liquids, vertical surface in contact with liquid on either side."
+        },
+        {
+          "name": "Unit– 2 Fluid Flow Parameters ",
+          "content": "• Types of flow – Gravity and pressure flow, Laminar, Turbulent, Uniform, Non-uniform, Steady, Unsteady flow. Reynolds number. • Discharge and its unit, continuity equation of flow. • Energy of flowing liquid: potential, kinetic and pressure energy. • Bernoulli’s theorem: statement, assumptions, equation. "
+        },
+        {
+          "name": "Unit– 3 Flow through pipes ",
+          "content": "Major Head loss in pipe: Frictional loss and its computation by Darcy’s Welsbach equation. • Minor losses in pipe: loss at entrance, exit, sudden contraction, sudden enlargement, and fittings. • Flow through pipes in series, pipes in parallel and Dupuit’s equation for equivalent pipe. • Hydraulic gradient line and total energy line. "
+        },
+        {
+          "name": "Unit– 4 Flow through Open Channel ",
+          "content": "• Geometrical properties of channel section: Wetted area, wetted perimeter, hydraulic radius for rectangular and trapezoidal channel section. • Determination of discharge by Chezy’s equation and Manning’s equation. • Conditions for most economical rectangular and trapezoidal channel section. • Discharge measuring devices: Triangular and rectangular Notches. • Velocity measurement devices: current meter, floats and Pitot’s tube. • Specific energy diagram, Froude’s Number."
+        },
+        {
+          "name": "Unit– 5 Hydraulic Pumps ",
+          "content": "• Concept of pump, Types of pumps - centrifugal, reciprocating, submersible. • Suction head, delivery head, static head, Manometric head. • Selection and choice of pump."
+        }
+      
+    ],
+    "practicals": [
+      "Use piezometer to measure pressure at a given point.",
+      "Use U tube differential manometer to measure pressure difference between two given points.",
+      "Find the resultant pressure and its position for given situation of liquid in a tank.",
+      "Use Reynold’s apparatus to determine type of flow.",
+      "Use Bernoulli’s apparatus to apply Bernoulli’s theorem to get total energy line for a flow in a closed conduit of varying cross sections.",
+      "Determine minor losses in pipe fittings due to sudden contraction and sudden enlargement.",
+      "Determine minor losses in pipe fitting due to Bend and Elbow.",
+      "Calibrate Venturi meter to find out the discharge in a pipe.",
+      "Calibrate the Orifice to find out the discharge through a tank.",
+      "Use Current meter to measure the velocity of flow of water in open channel.",
+      "Use Pitot tube to measure the velocity of flow of water in open channel.",
+      "Use triangular notch to measure the discharge through open channel.",
+      "Use Rectangular notch to measure the discharge through open channel."
+    ]
+  },
+  {
+    "name": "Transportation Engineering",
+    "isbn": "978-81-965686-9-6",
+    "edition": "1st edition",
+    "Author": "Vibhor Sharma",
+    "price": "249",
+    "slug": "transportation-engineering",
+    "img": "/books/Transportation Engineering Front.png",
+    "category": "civil engineering",
+    "semester": "fourth",
+    "AbooutTheBook": {
+      "heading": "Transportation Engineering, is a comprehensive textbook that covers the fundamental principles, methodologies, and practices related to the planning, design, operation, and management of transportation systems. The book addresses various modes of transportation, including roadways, railways, airports, and waterways, providing an integrated approach to transportation engineering.",
+      "content": [],
+      "lastheading": ""
+    },
+    "tableOfContents": [
+      {
+        
+          "name": "Unit – 1 Overview of Highway Engineering",
+          "content": "• Role of transportation in the development of nation, Scope and Importance of roads in India and its Characteristics. • Different modes of transportation – land way, waterway, airway. Merits and demerits of roadway and railway. • General classification of roads. • Selection and factors affecting road alignment."
+        },
+        {
+          "name": "Unit– 2 Geometric Design of Highway",
+          "content": "• Camber: Definition, purpose, types as per IRC – recommendations. • Kerbs: Road margin, road formation, right of way. • Design speed and various factors affecting design speed as per IRC –recommendations. • Gradient: Definition, types as per IRC – Recommendations. • Sight distance (SSD): Definition, types IRC – recommendations, simple numerical. • Curves: Necessity, types: Horizontal, vertical curves. • Super elevation: Definition, formula for calculating minimum and maximum Super elevation and method of providing super-elevation. • Standards cross-sections of national highway in embankment and cutting."
+        },
+        {
+          "name": "Unit– 3 Construction of Road Pavements",
+          "content": "• Types of road materials and their Tests – Test on aggregates- Flakiness and Elongation Index tests, Angularity Number test, test on Bitumen- penetration, Ductility, Flash and Fire point test and Softening point test. • Pavement – Definition, Types, Structural Components of pavement and their functions • Construction of WBM road. Merits and demerits of WBM & WMM road. • Construction of Flexible pavement / Bituminous Road, Types of Bitumen and its proper- ties, Emulsion, Cutback, Tar, Terms used in BR-prime coat, tack coat, seal coat, Merits and Demerits of BR. • Cement concrete road methods of construction, Alternate and Continuous Bay Method, Construction joints, filler and sealers, merits and demerits of concrete roads. Types of joints."
+        },
+        {
+          "name": "Unit– 4 Basics of Railway Engineering",
+          "content": "• Classification of Indian Railways, zones of Indian Railways. • Permanent way: Ideal requirement, Components; Rail Gauge, types, factors affecting selection of a gauge. • Rail, Rail Joints - requirements, types. • Creep of rail causes and prevention."
+        },
+        {
+          "name": "Unit-5 Track geometrics, Construction and Maintenance",
+          "content": "• Alignment- Factors governing rail alignment. • Track Cross sections – standard cross section of single and double • line in cutting and embankment. Important terms- permanent land, formation width, side drains, • Railway Track Geometrics: Gradient, curves- types and factors affecting, grade compensation, super elevation, limits of Super elevation on curves, cant deficiency, negative cant, coning of wheel, tilting of rail. • Branching of Tracks, Points and crossings, Turn out- types, components, functions and inspection. Track junctions: crossovers, scissor cross over, diamond crossing, track triangle. • Station -Purpose, requirement of railway station, important technical terms, types of rail- way station, factors affecting site selection for railway station. • Station yard: Classification- Passenger, goods, locomotive and marshalling yards. Function & drawbacks of marshalling yards. • Track Maintenance- Necessity, Classification, Tools required for track maintenance with their functions, Organization of track maintenance, Duties of permanent way inspector, gang mate and Key man"
+        }
+      
+    ],
+    "practicals": [
+      "Draw the sketches showing standard cross sections of Expressways, Freeways, NH/SH, MDR/ODR",
+      "Flakiness and Elongation Index of aggregates.",
+      "Angularity Number of aggregates.",
+      "Aggregate impact test.",
+      "Los Angeles Abrasion test",
+      "Aggregate crushing test",
+      "Softening point test of bitumen.",
+      "Penetration test of bitumen.",
+      "Flash and Fire Point test of bitumen.",
+      "Ductility test of Bitumen."
+    ]
+  },
+  {
+    "name": "Building Planning & Drawing",
+    "isbn": "978-81-962529-8-4",
+    "edition": "1st edition",
+    "Author": "Puneet Sharma, Abhishek Thakur",
+    "price": "249",
+    "slug": "building-planning-&-drawing",
+    "img": "/books/Building Planning & drg Front.png",
+    "category": "civil engineering",
+    "semester": "fourth",
+    "AbooutTheBook": {
+      "heading": "Building Planning & Drawing for Civil Engineers, is a specialized textbook tailored to provide civil engineering students and professionals with a comprehensive understanding of building planning, design, and drawing principles. It emphasizes practical applications related to civil engineering projects, ensuring the integration of architectural design concepts with civil engineering perspectives.",
+      "content": [],
+      "lastheading": ""
+    },
+    "tableOfContents": [
+      {
+        
+          "name": "Unit – I Conventions and Symbols",
+          "content": "• Conventions as per IS 962, symbols for different materials such as earthwork, brickwork, stonework, concrete, woodwork, and glass. • Graphical symbols for doors and windows, Abbreviations, symbols for sanitary and electrical installations. • Types of lines-visible lines, centre line, hidden line, section line, dimension line, extension line, pointers, arrowhead, or dots. Appropriate size of lettering and numerals for titles, sub-titles, notes, and dimensions. • Types of scale- Monumental, Intimate, criteria for Proper Selection of scale for various types of drawing. • Sizes of various standard papers/sheets. • Reading and interpreting readymade Architectural building drawing (To be procured from Architect, Planning Consultants, Planning Engineer)."
+        },
+        {
+          "name": "Unit– II Planning of Building",
+          "content": "• Principles of planning for Residential and Public building- Aspect, Prospect, Orientation, Grouping, Privacy, Elegance, Flexibility, Circulation, Furniture requirements, Sanitation, Economy. • Space requirement and norms for minimum dimension of different units in the residential and public buildings as per IS 962. • Rules and byelaws of sanctioning authorities for construction work. • Plot area built up area, super built-up area, plinth area, carpet area, floor area and FAR (Floor Area Ratio). • Line plans for residential building of minimum three rooms including water closet (WC), bath and staircase as per principles of planning. Line plans for public building-school building, primary health centre, restaurant, bank, post office, hostel, Function Hall and Library. "
+        },
+        {
+          "name": "Unit– III Drawing of Load Bearing Structure",
+          "content": "• Drawing of Single storey Load Bearing residential building (2 BHK) with staircase. • Data drawing –plan, elevation, section, site plan, schedule of openings, construction notes with specifications, area statement, Planning and design of staircase- Rise and Tread for residential and public building. • Working drawing – developed plan, elevation, section passing through staircase or WC and bath. • Foundation plan of Load bearing structure."
+        },
+        {
+          "name": "Unit– IV Drawing of Framed Structure",
+          "content": "• Drawing of Two storeyed Framed Structure (G+1), residential building (2 BHK) with stair- case. • Data drawing – developed plan, elevation, section, site plan, schedule of openings, construction notes with specifications, area statement. Planning and design of staircase- Rise and Tread for residential and public building. • Working drawing of Framed Structure – developed plan, elevation, section passing through staircase or WC and bath. • Foundation plan of Framed Structure. • Details of RCC footing, Column, Beam, Chajjas, Lintel, Staircase, and slab. • Drawing with CAD- Draw commands, modify commands, layer commands."
+        }
+      
+    ],
+    "practicals": []
+  },
+  {
+    "name": "Database Management Systems",
+    "isbn": "978-81-965686-2-7",
+    "edition": "1st edition",
+    "Author": "Dr. Rajesh Sharma, Madhu Dhiman",
+    "price": "199",
+    "slug": "database-management-systems",
+    "img": "/books/Introduction to Dbms Front.png",
+    "category": "Computer Engineering",
+    "semester": "fourth",
+    "AbooutTheBook": {
+      "heading": "Database Management Systems: Concepts and Practical Applications, is a comprehensive textbook that provides a deep understanding of database management systems (DBMS) and their real-world applications. It covers fundamental database concepts, principles, design, and the practical aspects of managing data efficiently in various domains.",
+      "content": [],
+      "lastheading": "Database Management Systems: Concepts and Practical Application, is a comprehensive textbook that provides a deep understanding of database management systems (DBMS) and their real-world applications. It covers fundamental database concepts, principles, design, and the practical aspects of managing data efficiently in various domains."
+    },
+    "tableOfContents": [
+      {
+        
+          "name": "Unit 1 : Introduction to Database Systems",
+          "content": "Database Systems, Database and its Purpose, Comparison of Database Approach with File-based and Traditional Record Keeping Approaches, Advantages and Disadvantages of Database Approach, Classification of Database Users, Role of DBA"
+        },
+        {
+          "name": "Unit 2 : Database System Concepts and Architecture",
+          "content": "Data Models, Schemas, and Instances; ANSI/SPARC Architecture of a Database System, External Level, Conceptual Level, Internal Level, Mappings; Data Independence, Logical Data Independence, Physical Data Independence"
+        },
+        {
+          "name": "Unit 3 : Relational and E-R Models",
+          "content": "Relational Database Model, Relations, Attributes, Tuples, Domains; Prime and Non-prime Attributes, Key – Primary Key, Candidate Keys, Alternate Keys, Superkey, Secondary Key, Foreign Keys; Database Constraints, Entity Relationship Model - Entity, Entity Sets, Strong and Weak Entities, Attributes, and Keys; Association, Relationship, Roles, Structural Constraints, ER Diagrams"
+        },
+        {
+          "name": "Unit 4 : Database Dependencies and Normalization",
+          "content": "Functional Dependencies, Trivial and Non-trivial Dependencies, Non-Loss Decomposition, Normalization, First, Second and Third Normal Forms, Boyce-Codd Normal Form"
+        },
+        {
+          "name": "Unit 5 : Overview of MySQL",
+          "content": "MySQL, Features of MySQL, Database Objects - Database, Table, View, Index, Alias; MySQL Object Naming, Keywords, User-defined Variables, Data Types - Numeric, Date and Time, String Types; Operators: Arithmetic, Logical, Relational, String; MySQL System Schema, MySQL Database Users and Roles, Database Privileges, Access Control and Account Management, MySQL Server and MySQL Client"
+        },
+        {
+          "name": "Unit 6 : Structure Query Language using MySQL",
+          "content": "SQL, DDL Statements : CREATE, DROP, ALTER, RENAME; DML Statements: INSERT, UPDATE , DELETE, SELECT; SELECT Clauses - FROM, WHERE, ORDER BY, GROUP BY, HAVING; Join Operations - Inner, Left, Right and Outer Joins; Subqueries, Set Operations - Union, Intersect, Minus; GRANT and REVOKE Privileges; Transaction Statements - COMMIT, ROLLBACK, SAVEPOINT; Prepared Statements, SQL Functions - ABS, ROUND, FLOOR, CEIL, SQRT, POWER, TRUNCATE, LOG, NOW, DATE, TIME, CURDATE, CURTIME, DAY, MONTH, YEAR, DATEDIFF, DATE_SUB, DATE_ADD, DATE_FORMAT, CONCACT, LENGTH, UPPER, LOWER, LEFT, RIGHT, LTRIM, RTRIM, MAX, MIN, SUM, AVG, COUNT, CAST, STR_TO_DATE"
+        }
+      
+    ],
+    "practicals": [
+      "To install and configure MySQL database server on Windows or Linux machines.",
+      "To create database tables having columns with different data types, widths and precisions.",
+      "To alter existing database tables to add new columns, delete existing columns and change column names, data types and widths.",
+      "To apply integrity constraints - PRIMARY KEY, NOT NULL, UNIQUE, CHECK, FOREIGN KEY, to the database tables.",
+      "To insert data in a table having columns of different data types (INSERT statement).",
+      "To view the data stored in different tables using the SELECT statement. Apply WHERE, HAVING, ORDER BY and GROUP BY clauses with SELECT.",
+      "To demonstrate join operation on tables using left, right and inner join.",
+      "To demonstrate at least 10 SQL row functions in queries.",
+      "To demonstrate SUM, MAX, MIN, COUNT aggregate functions and also demonstrate the use of HAVING and GROUP BY clauses in SELECT statement.",
+      "Case Study : Student Database – The case study project must identify various entities related to the students in a typical academic institution, draw E-R diagrams, Apply Database Normalization, Create Tables, Apply Database Constraints, Insert data, Delete Data and Query the Database etc."
+    ]
+  },
+  {
+    "name": "Data Structure & Algorithms",
+    "isbn": "978-81-965686-8-9",
+    "edition": "1st edition",
+    "Author": "Kuldeep Kumar Sharma",
+    "price": "199",
+    "slug": "data-structure-&-algorithms",
+    "img": "/books/Data Structure Front.png",
+    "category": "Computer Engineering",
+    "semester": "fourth",
+    "AbooutTheBook": {
+      "heading": "Database Management Systems: Concepts and Practical Applications, is a comprehensive textbook that provides a deep understanding of database management systems (DBMS) and their real-world applications. It covers fundamental database concepts, principles, design, and the practical aspects of managing data efficiently in various domains.",
+      "content": [],
+      "lastheading": "The book adopts a practical and hands-on approach, providing numerous examples, exercises, and case studies to reinforce concepts. It emphasizes the application of DBMS in real-world scenarios, making it suitable for both students and professionals seeking to master the principles and practices of database management."
+    },
+    "tableOfContents": [
+      {
+        
+          "name": "Unit 1: Introduction",
+          "content": "Algorithms-Definition, Characteristics, Efficiency, Notations - Asymptotic, Big-Oh, Omega, Theta notation; Data Types, Data Structures - Characteristics, Types - Linear, Non-linear, General Operations, Efficiency;"
+        },
+        {
+          "name": "Unit 2: Arrays, Structures and Pointers",
+          "content": "Arrays, One-Dimensional and Multi-Dimensional Arrays, One-Dimensional Arrays-Memory Representation, Traversal, Insertion and Deletion, Sorting and Searching; Two-Dimensional Arrays–Memory Representation, Implement Matrices using Two-Dimensional Arrays, Matrix Operations-Addition, Subtraction, Multiplication, Transpose; Structure-Accessing structure members using (.) and (->) operators, self referencing structures, Pointers-Dynamic Memory Allocation using malloc(), calloc(),free() and realloc(), Manipulate Arrays using Pointers."
+        },
+        {
+          "name": "Unit 3: : Sorting and Searching",
+          "content": "Searching Techniques - Linear Search, Binary Search; Sorting Techniques – Selection Sort, Insertion Sort, Bubble Sort, Quick Sort, Merge Sort; Efficiencies of Sorting Algorithms."
+        },
+        {
+          "name": "Unit 4: Linear Data Structures",
+          "content": "Linked Lists - Representation, Advantages, Disadvantages, Implementation, Operations; Doubly Linked List, Stacks, Stack Operations - Push, Pop; Implementation of Stack using Arrays and Linked List; Queues, Queue Operations, Implementation of Queue using Arrays and Linked List."
+        },
+        {
+          "name": "Unit 5 Non-Linear Data Structures",
+          "content": "Trees, Tree Terminology - Node, Root, Parent, Children, Sibling, Edge, Leaves; Binary Tree, Binary Tree Representation, Binary Tree Traversal, Binary Search Tree, Graphs, Graph Terminology, Directed Graphs, Weighted Graphs, Graph Implementation using Adjacency Matrix and Adjacency List."
+        }
+      
+    ],
+    "practicals": [
+      "To insert and delete elements at specified location in an array.",
+      "To search an element in an array using linear search.",
+      "To search an element in a sorted array using binary search.",
+      "To sort elements of a given array in ascending order using selection sort method.",
+      "To sort elements of a given array in ascending order using bubble sort method.",
+      "To sort elements of a given array in ascending order using quick sort method.",
+      "To sort elements of a given array in descending order using insertion sort technique.",
+      "To sort elements of a given array in descending order using merge sort technique.",
+      "To implement a stack and demonstrate push, pop and peek operations on it.",
+      "To implement a queue and demonstrate various operations on it.",
+      "To implement a circular-queue and demonstrate various operations on it.",
+      "To implement a linked list and demonstrate insertion, deletion and traversing operations on it.",
+      "To implement a doubly linked list and demonstrate insertion, deletion and traversing operations.",
+      "To implement a tree and perform in-order, pre-order and post-order traversals.",
+      "To implement a binary search tree and perform insertion, deletion and search operations on it."
+    ]
   },
   {
     "name": "Information Security",
+    "isbn": "978-81-965686-0-3",
+    "edition": "1st edition",
     "Author": "Parul Gupta",
-    "slug": "advanced-surveying",
-
-    "link": "/",
-    "price": "$35",
-    "img": "/books/Information Security Front.png"
+    "price": "199",
+    "slug": "information-security",
+    "img": "/books/Information Security Front.png",
+    "category": "computer engineering",
+    "semester": "fourth",
+    "AbooutTheBook": {
+      "heading": "Information Security: Principles and Practices, is a comprehensive textbook that delves into the principles, practices, and technologies associated with safeguarding information in various contexts. It covers a wide range of topics related to cybersecurity, risk management, encryption, network security, and incident response, providing a holistic view of information security in the digital age.",
+      "content": [],
+      "lastheading": "The book employs a structured approach, providing clear explanations, case studies, and practical examples to illustrate concepts. It includes real-world scenarios to emphasize the importance of information security and equip readers with the skills needed to secure information effectively. Practice exercises and assessment questions encourage critical thinking and practical application of the concepts presented."
+    },
+    "tableOfContents": [
+      
+      {
+          "name": "Unit 1 : Introduction",
+          "content": "Information Security, Cybersecurity, Need for Cybersecurity, Aspects of Information Security (PAIN), Malware - Worm, Virus, Trojan Horse, Bots & Botnets, Ransomware, Spyware, Keylogger, Spamming and Phishing; Security Features of Operating Systems - Authentication, Logs, Audit Features, File System Protection, User Privileges, RAID Options, Anti-Virus Software, OS Security Patches"
+        },
+        {
+          "name": "Unit 2 : Basics of Cryptography",
+          "content": "Cryptography, Symmetric and Asymmetric Ciphers, Substitution Cipher, Caesar Cipher, Transposition Technique, Stegnography, Stream and Block Ciphers (Introduction Only), Public Key Cryptography "
+        },
+        {
+          "name": "Unit 3 : Cybersecurity Framework",
+          "content": "NIST Definition of Computer Security, CIA Triad, NIST Framework for Cybersecurity, Cybersecurity Framework Components, Framework Core - Functions, Categories, and Subcategories; Framework Implementation Tier"
+        },
+        {
+          "name": "Unit 4 : Information Security Architecture",
+          "content": "OSI Security Architecture, Definitions of Security Attack, Security Mechanism, Security Service, Threat and Attack; Active and Passive Attacks, Security Services - Authentication, Access Control, Data Confidentiality, Data Integrity and Non-repudiation; Security Mechanisms - Encipherment, Digital Signature, Access Control, Data Integrity, Authentication Exchange, Traffic Padding, Routing Control and Notarization"
+        },
+        {
+          "name": "Unit 5 : Network and Internet Security",
+          "content": "Network Classification : Trusted, Semi-trusted, Untrusted & Unknown Networks; Network Attacks Classification : Interruption, Interception, Modification & Fabrication; Network Attacks : Password Stealing, Packet Sniffers, IP Spoofing, Denial-of-Service (DoS), Man-in-Middle, Session Hijacking; Security Weaknesses in Networks, Network Access Control, IEEE 802.1x, VLAN, Firewall, Extensible Authentication Protocol, Network Security Protocols - TLS, SSL, HTTPS, IPSec and SSH, Ingres Filtering, VPN, Firewalls, Internet Security Threats : Privacy Breach, DNS Spoofing, Email Spam, Cross-site Scripting (XSS); Web Browser Security Settings : Cookies, Website Certificates, Browsing History, Plugins, Parental Control, Form Autofill, CAPTCHA; Strong Passwords"
+        },
+        {
+          "name": "Unit 6 : Cyber Laws",
+          "content": "Cyber Crime, Cyber Crime against Person, Property and Government, Major Provisions under Indian IT Act-2000 (Sections 65, 66, 67, 69); Intellectual Property Rights, Patent Law, Copyright Law, Digital Signatures"
+        }
+      
+    ],
+    "practicals": []
+  },
+  {
+    "name": "Wireless Communication",
+    "isbn": ".............",
+    "edition": "1st edition",
+    "Author": "Akhil Pundir",
+    "price": "199",
+    "slug": "wireless-communication",
+    "img": "/books/Wireless Communication Front.png",
+    "category": "computer engineering",
+    "semester": "fourth",
+    "AbooutTheBook": {
+      "heading": "Wireless Communication: Principles and Applications, is a comprehensive textbook that provides an in-depth understanding of the principles, technologies, and applications that underpin wireless communication systems. It covers various aspects of wireless communication, including modulation techniques, channel coding, multiple access schemes, wireless networks, and emerging technologies, aiming to equip readers with the knowledge to design and optimize wireless communication systems.",
+      "content": [],
+      "lastheading": "The book adopts a structured pedagogical approach, providing clear explanations, practical examples, and illustrations to aid understanding. It includes exercises, case studies, and real-world applications to reinforce concepts and encourage critical thinking. This book is suitable for students, professionals, and anyone interested in gaining a comprehensive understanding of wireless communication principles and their practical applications."
+    },
+    "tableOfContents": [
+      {
+        
+          "name": "Unit 1: Introduction to Wireless Communication",
+          "content": "Wireless communication and its applications, advantages and disadvantages of wireless communication, Types of Services: broadcast, paging, cellular telephony, trunking radio, cordless telephony, WLAN, PAN, adhoc & sensor networks, fixed wireless access; challenges in wireless communication."
+        },
+        {
+          "name": "Unit 2: Electromagnetic Spectrum",
+          "content": "Electromagnetic spectrum, licensed/unlicensed spectrum bands, ISM band, terrestrial and satellite microwave communication, broadcast radio, infrared and light wave communication, wireless transmission impairments – attenuation, distortion, noise, interference, path loss, shadowing and fading."
+        },
+        {
+          "name": "Unit 3: Fundamentals of Wireless Communication",
+          "content": "Concept of bandwidth, analog and digital signals, data rate, signal strength, SNR, RSSI, electromagnetic wave propagation: ground waves, sky waves and line-of-sight propagation; radio waves, microwaves, infrared; Overview of Propagation Mechanisms: reflection, diffraction and scattering; outdoor and indoor propagation."
+        },
+        {
+          "name": "Unit 4: Cellular Architecture",
+          "content": "Cellular Communication: cellular concept, cellular system architecture, cells, clusters, frequency reuse, cell splitting, handoff, Digital Cellular System: TDMA, ETDM, PCS, CDMA, Global System for Mobile Communication (GSM), GSM network: switching system, BSS, operation and support system, Generations of cellular networks and their features (1G – 5G)."
+        },
+        {
+          "name": "Unit 5: Wireless LAN Technology and Bluetooth",
+          "content": "Wireless LAN (WLAN), IEEE-802.11, WLAN applications, WLAN types, WLAN problems – hidden station and exposed station problems; Bluetooth technology, Direct Sequence Spectrum Scheme, Frequency Hopping Spread Spectrum, Personal Area Networks."
+        }
+      
+    ],
+    "practicals": [
+      "To identify various wireless networking devices and to recognise physical topology in the lab.",
+      "To create WLAN of at least five wireless devices using any simulation tool (e.g. packettracer).",
+      "To setup a WLAN using access point.",
+      "Data sharing using Bluetooth.",
+      "To transfer data between two wireless devices (e.g.PC-PC, PC-Smart phone)",
+      "To install, configure and use a Printer with WiFi."
+    ]
+  },
+  {
+    "name": "Strength of Materials",
+    "isbn": "978-81-965686-7-2",
+    "edition": "1st edition",
+    "Author": "Vibhor Sharma, Aman",
+    "price": "299",
+    "slug": "strength-of-materials",
+    "img": "/books/SOM Front.png",
+    "category": "mechanical engineering",
+    "semester": "fourth",
+    "AbooutTheBook": {
+      "heading": "Strength of Materials, is a fundamental textbook that covers the principles and applications related to the behavior of materials under various loads and stresses. The book focuses on analyzing the strength, deformation, and stability of structural components commonly used in engineering practice. It aims to provide a strong foundation in understanding the mechanical properties and behavior of materials subjected to external forces.",
+      "content": [],
+      "lastheading": "The book employs a systematic and structured approach, presenting the concepts in a clear and concise manner. It includes numerous examples, illustrations, and step-by-step solutions to reinforce understanding. Practical applications and real-world examples are integrated to highlight the relevance and importance of the topics covered. Practice problems and exercises are provided to encourage critical thinking and hands-on application of the concepts learned."
+    },
+    "tableOfContents": [
+      {
+        
+          "name": "Unit – 1 Moment of Inertia ",
+          "content": "Moment of inertia (M.I.): Definition, M.I. of plane lamina, Radius of gyration, section modulus, Parallel and Perpendicular axes theorems (without derivations), M.I. of rectangle, square, circle, semi-circle, quarter circle and triangle section (without derivations). M.I. of symmetrical and unsymmetrical I-section, Channel section, T-section, Angle section, Hollow sections about centroidal axes. Polar Moment of Inertia of solid circular sections. "
+        },
+        {
+          "name": "Unit– 2 Simple Stresses and Strains ",
+          "content": "Definition of rigid, elastic and plastic bodies, Definition of stress, strain, elasticity, Hook’s law, Elastic limit, Modulus of elasticity. Type of Stresses-Normal, Direct, Bending and Shear and nature of stresses i.e., Tensile and Compressive stresses. Standard stress strain curve for tor steel bar under tension, Yield stress, Proof stress, Ultimate stress, Strain at various critical points, Percentage elongation and Factor of safety. Deformation of body due to axial force, forces applied at intermediate sections, Maximum and minimum stress induced, Composite section under axial loading. Concept of temperature stresses and strain, Stress and strain developed due to temperature variation in homogeneous simple bar (no composite section) Longitudinal and lateral strain, Modulus of Rigidity, Poisson’s ratio, volumetric strain, change in volume, Bulk modulus (Introduction only). Relation between modulus of elasticity, modulus of rigidity and bulk modulus (without derivation). "
+        },
+        {
+          "name": "Unit– 3 Shear Force and Bending Moment",
+          "content": "Types of supports, beams, and loads. Concept and definition of shear force and bending moment, Relation between load, shear force and bending moment (without derivation). Shear force and bending moment diagram for cantilever and simply supported beams subjected to point loads, uniformly distributed loads (combination of any two types of loading), point of contra flexure. "
+        },
+        {
+          "name": "Unit– 4 Bending and Shear Stresses in beams ",
+          "content": "Concept and theory of pure bending, assumptions, flexural equation (without derivation), bending stresses and their nature, bending stress distribution diagram. Concept of moment of resistance and simple numerical problems using flexural equation. Shear stress equation (without derivation), relation between maximum and average shear stress for rectangular and circular section, shear stress distribution diagram. Shear stress distribution for square, rectangular, circle, hollow, angle sections, channel section, I-section, T section. Simple numerical problems based on shear equation. "
+        },
+        {
+          "name": "Unit- 5: Torsion in Shafts and Springs ",
+          "content": "Definition and function of shaft; Calculation of polar M.I. for solid and hollow shafts; Assumptions in simple torsion; Torsion equation T/J=fs/R=Gθ/L; Simple Problems on design of shaft based on strength and rigidity; Numerical Problems related to comparison of strength and weight of solid and hollow shafts; Classification of springs; Nomenclature of closed coil helical spring; Deflection formula for closedcoil helical spring (without derivation);stiffness of spring; Simple Numerical problems on closed coil helical spring to find safe load, deflection, size of coil and number of coils."
+        }
+      
+    ],
+    "practicals": []
   }
 ]

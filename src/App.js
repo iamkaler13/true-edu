@@ -31,7 +31,7 @@ function App() {
           <Route path="/our-mission" element={<Ourmission />} />
           <Route path="/about-us" element={<Aboutus />} />
           <Route path="/our-team" element={<Ourteam />} />
-          <Route path="/product/:id" element={<SingleProduct />} />
+          <Route path="/product/:slug" element={<SingleProduct />} />
 
 
         </Routes>
