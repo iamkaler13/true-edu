@@ -9,7 +9,6 @@ import {
 import "react-accessible-accordion/dist/fancy-example.css";
 import { Link } from "react-router-dom";
 const Accordian = ({ setShow, nav_links }) => {
-  console.log("nav_links", nav_links);
   return (
     <div className="nav-accordian h-[100vh] overflow-y-scroll mobileview flex flex-col gap-[20px] pt-[20px]">
       {nav_links.map((element, key) => (

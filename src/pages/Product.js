@@ -1,86 +1,23 @@
 import React, { useEffect } from "react";
-import { ChevronDownIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { ProductList } from "../features/Productlist/ProductList";
+import product from "../data/product.json"
 const Product = () => {
-  const data = [
-    "ALL",
-    "Popular",
-    "Productivity",
-    "Sales",
-    "Communications",
-    "Billing",
-  ];
-  const [searchTerm, setSearchTerm] = useState("");
 
-  const [show, setSHow] = useState(false);
-  const product = [
-    {
-      id: 1,
-      name: "Book 1",
-      href: "#",
-      imageSrc: "/product.jpg",
-      imageAlt: "Front of men's Basic Tee in Author.",
-      price: "$35",
-      color: "Author",
-    },
-    {
-      id: 1,
-      name: "Book 2",
-      href: "#",
-      imageSrc: "/product.jpg",
-      imageAlt: "Front of men's Basic Tee in Author.",
-      price: "$35",
-      color: "Author",
-    },
-    {
-      id: 1,
-      name: "Book 3",
-      href: "#",
-      imageSrc: "/product.jpg",
-      imageAlt: "Front of men's Basic Tee in Author.",
-      price: "$35",
-      color: "Author",
-    },
-    {
-      id: 1,
-      name: "Basic Tee",
-      href: "#",
-      imageSrc: "/product.jpg",
-      imageAlt: "Front of men's Basic Tee in Author.",
-      price: "$35",
-      color: "Author",
-    },
-    {
-      id: 1,
-      name: "Basic Tee",
-      href: "#",
-      imageSrc: "/product.jpg",
-      imageAlt: "Front of men's Basic Tee in Author.",
-      price: "$35",
-      color: "Author",
-    },
-    // More products...
-  ];
-  const [integrationData, setIntegrationData] = useState(product);
+
+  const [booksData, setBooksData] = useState(product);
+  const [query, setQuery] = useState('');
 
   const handleSearch = (e) => {
     const searchText = e.target.value;
-    setSearchTerm(searchText);
+    setQuery(searchText)
     const filteredData = product.filter((item) =>
-      item.title.toLowerCase().includes(searchText.toLowerCase())
+      item.name.toLowerCase().includes(searchText.toLowerCase())
     );
-    setIntegrationData(filteredData);
+    setBooksData(filteredData);
   };
 
-  const handleSelect = (element) => {
-    if (element == "ALL") {
-      return product;
-    }
-    setIntegrationData(product.filter((ele) => ele.name == element));
-  };
-  const [showCat, setShowCat] = useState(data[0]);
+ 
 
   return (
     <div className="bg-white  mx-auto max-w-7xl py-0 sm:py-0 sm:px-0">
@@ -99,9 +36,9 @@ const Product = () => {
       <div className="filter-cards text-center sm:mt-[24px] pb-5 px-4 mt-[0px]">
         <div className="flex justify-between items-start sm:flex-row flex-col">
           <div className="text-right h-[60px]  flex justify-end  w-[100%] sm:w-[220px]">
-            <div className="relative w-[100%] sm:w-[220px] ">
+            <div className="relative w-[100%] sm:w-[520px] ">
               <div
-                className="absolute w-[100%] sm:w-[220px] inset-y-1
+                className="absolute w-[100%] sm:w-[520px] inset-y-1
                bottom-0 left-0 flex items-center pl-3 pointer-events-none"
               >
                 <svg
@@ -122,9 +59,9 @@ const Product = () => {
               </div>
               <input
                 type="search"
-                onChange={handleSearch}
+                onChange={(e)=>handleSearch(e)}
                 id="search"
-                value={searchTerm}
+                value={query}
                 className="flex h-[60px]  bg-white border-1 rounded-[20px] justify-between items-center py-[8px] px[24px] w-full p-2 focus:outline-none focus:border-sky focus:ring-2 pl-10 text-sm text-gray-900 border border-border "
                 placeholder="Search"
               />
@@ -132,7 +69,7 @@ const Product = () => {
           </div>
         </div>
       </div>
-      <ProductList />
+      <ProductList products={booksData}  />
     </div>
   );
 };

@@ -50,7 +50,7 @@ const Homefold = () => {
                   }
                 >
                   <div className="trytempo">
-                    <Link to="/product">Start Exploring</Link>
+                    <Link to="/product">Exploring Books</Link>
                   </div>
                 </button>
               </div>

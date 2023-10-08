@@ -3,10 +3,8 @@ import { Link, useParams } from "react-router-dom";
 import Product from "../data/product.json";
 import { useState } from "react";
 const SingleProduct = () => {
-  console.log(Product);
   const { slug } = useParams();
   const data = Product.find((ele) => ele.slug == slug);
-  console.log("data", data);
   const [show, setSHow] = useState(false);
   return (
     <div className=" bg-white sm:py-10 py-0 px-5 sm:px-0 sm:mt-[50px]  ">
