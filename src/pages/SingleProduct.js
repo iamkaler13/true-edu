@@ -97,7 +97,7 @@ const SingleProduct = () => {
             )}
             {data?.practicals?.map((ele, key) => (
               <>
-                <p className="text-[18px] font-[450] my-4 sm:my-3">
+                <p className="text-[18px]  my-4 sm:my-3">
                   {key + 1}. {ele}
                 </p>
               </>
