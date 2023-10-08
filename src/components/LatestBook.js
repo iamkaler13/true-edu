@@ -58,7 +58,7 @@ Our Latest Launches
       <div className="relative  sm:pt-0 pb-10">
    
         <Slider {...workflowslider} className="sliderMaine">
-          {data.map((ele, key) => (
+          {data.slice(0,6).map((ele, key) => (
             <div className="p-4 " key={key}>
               <div className="rounded-[20px] shadow-2xl mt-8">
                 <div className="relative p-4">
