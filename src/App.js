@@ -4,7 +4,7 @@ import ContactUs from "./pages/ContactUs.js";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./features/Navbar/Navbar.js";
 import Footer from "./features/Footer/Footer.js";
-import Product from "./pages/Product.js";
+import Product from "./pages/Books.js";
 
 import Publish from "./pages/Publish.js";
 import WheretoBuy from "./pages/WheretoBuy.js";
@@ -23,7 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/product" element={<Product />} />
+          <Route path="/books" element={<Product />} />
           <Route path="/publish-with-us" element={<Publish />} />
           <Route path="/where-to-buy" element={<WheretoBuy />} />
           <Route path="/privacy-policy" element={<Privacypociy />} />
@@ -31,7 +31,7 @@ function App() {
           <Route path="/our-mission" element={<Ourmission />} />
           <Route path="/about-us" element={<Aboutus />} />
           <Route path="/our-team" element={<Ourteam />} />
-          <Route path="/product/:slug" element={<SingleProduct />} />
+          <Route path="/books/:slug" element={<SingleProduct />} />
 
 
         </Routes>

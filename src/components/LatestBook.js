@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
-import product from "../data/product.json"
+import product from "../data/books.json"
 const LatestBook = () => {
   const [data,setData] = useState(product)
   var workflowslider = {
@@ -84,7 +84,7 @@ Our Latest Launches
                   </h3>
                 
                   <button className="text-[#FF5721] hover:text-heading my-3 sm:my-0 text-lg font-semibold dark:focus:ring-yellow-900 rounded-lg">
-                    <Link to={`/product/${ele.slug}`}> Learn more →</Link>
+                    <Link to={`/books/${ele.slug}`}> Learn more →</Link>
                   </button>
                 </div>
               </div>

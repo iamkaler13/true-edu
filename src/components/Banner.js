@@ -8,7 +8,7 @@ const Banner = () => {
         
           Create a brighter future by turning the pages of{" "}
           <span className="mt-2 sm:mt-0 inline  uppercase underline ">
-            <Link to="/products">our books </Link>
+            <Link to="/books">our books </Link>
           </span>{" "}
           and shape your tomorrow.
         </h6>

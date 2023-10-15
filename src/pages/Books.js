@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
-import { ProductList } from "../features/Productlist/ProductList";
-import product from "../data/product.json"
+import { ProductList } from "../features/Booklist/Booklist";
+import product from "../data/books.json"
 const Product = () => {
 
 
@@ -21,19 +21,19 @@ const Product = () => {
 
   return (
     <div className="bg-white  mx-auto max-w-7xl py-0 sm:py-0 sm:px-0">
-      <div className=" mx-auto max-w-[90%] sm:max-w-[90%] md:max-w-[90%] lg:max-w-[90%]  py-10">
+      <div className=" mx-auto max-w-[90%] sm:max-w-[90%] md:max-w-[90%] lg:max-w-[90%]  py-10 sm:py-4">
         <div className="text-center mb-5">
           <p className=" font-bold uppercase  sm:text-[40px] text-[20px] text-center mb-2 sm:mb-0 sm:!leading-[3.75rem] sm:w-[900px] m-auto text-[#FF5721]">
             our books
           </p>
 
-          <h2 className="font-bold text-xl  sm:text-[30px] text-center  sm:w-[896px] sm:!leading-[3.75rem] sm:mt-4 m-auto">
+          <h2 className="font-bold text-xl  sm:text-[30px] text-center  sm:w-[896px] sm:!leading-[2.75rem] sm:mt-4 m-auto">
             Committed to imparting knowledge and inspiration through our
             literary works.{" "}
           </h2>
         </div>
       </div>
-      <div className="filter-cards text-center sm:mt-[24px] pb-5 px-4 mt-[0px]">
+      <div className="filter-cards text-center sm:mt-[14px] pb-5 px-4 mt-[0px]">
         <div className="flex justify-between items-start sm:flex-row flex-col">
           <div className="text-right h-[60px]  flex justify-end  w-[100%] sm:w-[220px]">
             <div className="relative w-[100%] sm:w-[520px] ">
