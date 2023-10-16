@@ -26,7 +26,7 @@ const slides = [
      
     },
   ];
-const HeighLight = () => {
+const Heighlight = () => {
 
   return (
     <div className=" bg-[#4d6998] sm:py-10 py-6 sm:my-[26px] ">
@@ -69,4 +69,4 @@ const HeighLight = () => {
   );
 };
 
-export default HeighLight;
+export default Heighlight;

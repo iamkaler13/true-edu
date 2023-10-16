@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-const MyApp = () => {
+const Myapp = () => {
   return (
     <div className="bg-[#4d6998] about shadow-lg">
     <div className=" mx-auto max-w-[90%] sm:max-w-[90%] md:max-w-[90%] lg:max-w-[90%] sm:py-10 py-6">
@@ -55,4 +55,4 @@ const MyApp = () => {
   </div>  )
 }
 
-export default MyApp
+export default Myapp

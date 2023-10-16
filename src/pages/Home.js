@@ -1,7 +1,7 @@
 import HomeFold from "../components/HomeFold";
-import MyApp from "../components/MyApp";
+import Myapp from "../components/Myapp";
 import Connect from "../components/Connect";
-import HeighLight from "../components/HeighLight";
+import Heighlight from "../components/Heighlight";
 import LatestBook from "../components/LatestBook";
 import { useEffect } from "react";
 const Home = () => {
@@ -12,9 +12,9 @@ const Home = () => {
   return (
     <div className="mx-auto max-w-7xl py-0 sm:py-0 sm:px-0">
       <HomeFold />
-      <HeighLight />
+      <Heighlight />
       <LatestBook />
-      <MyApp />
+      <Myapp />
 
       <Connect />
     </div>
