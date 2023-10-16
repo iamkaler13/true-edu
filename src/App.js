@@ -5,12 +5,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./features/Navbar/Navbar.js";
 import Footer from "./features/Footer/Footer.js";
 import Product from "./pages/Books.js";
-
 import Publish from "./pages/Publish.js";
-import WheretoBuy from "./pages/WheretoBuy.js";
-import PrivacyPolicy from "./pages/PrivacyPolicy.js";
-import OurTeam from "./pages/OurTeam.js";
+import WheretoBuy from "./pages/WheretoBuy.js"
+import PrivacyPolicy from "./pages/PrivacyPolicy.js"
 import AboutUs from "./pages/AboutUs.js";
+import OurTeam from "./pages/OurTeam.js"
 import SingleProduct from "./pages/SingleProduct.js";
 function App() {
 
