@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
-const AboutUs = () => {
+const Aboutus = () => {
   useEffect(() => {
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
   }, []);
@@ -139,4 +139,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Aboutus;
