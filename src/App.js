@@ -9,11 +9,9 @@ import Product from "./pages/Books.js";
 import Publish from "./pages/Publish.js";
 import WheretoBuy from "./pages/WheretoBuy.js";
 import PrivacyPolicy from "./pages/PrivacyPolicy.js";
-import OurMission from "./pages/OurMission.js";
 import AboutUs from "./pages/AboutUs.js";
 import OurTeam from "./pages/OurTeam.js";
 import SingleProduct from "./pages/SingleProduct.js";
-
 function App() {
 
   return (
@@ -27,7 +25,6 @@ function App() {
           <Route path="/publish-with-us" element={<Publish />} />
           <Route path="/where-to-buy" element={<WheretoBuy />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/our-mission" element={<OurMission />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/our-team" element={<OurTeam />} />
           <Route path="/books/:slug" element={<SingleProduct />} />
