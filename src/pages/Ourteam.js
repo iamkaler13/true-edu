@@ -8,13 +8,13 @@ const Ourteam = () => {
       about:
         "Abhishek Thakur is the visionary founder and CEO of True-Edu Publications. With a passion for education and a dedication to empowering students, he leads the team in creating exceptional educational products that make a difference in student's lives.      ",
       linkedin: "",
-      instagram: "",
+      instagram: "https://www.instagram.com/abhishek_thakur_11/",
       img: "/team/Abhishek.png",
   color:"#ffffff"
     },
     {
       name: " Vivek Singh",
-      title: "Sotware Developer  ",
+      title: "Software Developer  ",
       about:
         "Vivek Singh is the skilled lead Sotware developer responsible for designing and developing the True-Edu Publications website and Mobile App. With expertise in web technologies, they ensure an optimal and user-friendly online experience for our visitors. ",
       linkedin: "www.linkedin.com/in/vivek-singh-70bb911a6      ",

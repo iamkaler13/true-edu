@@ -27,18 +27,18 @@ const Product = () => {
             our books
           </p>
 
-          <h2 className="font-bold text-xl  sm:text-[30px] text-center  sm:w-[896px] sm:!leading-[2.75rem] sm:mt-4 m-auto">
+          <h2 className="font-bold text-xl  sm:text-[20px] text-center  sm:w-[896px] sm:!leading-[2.75rem] sm:mt-2 m-auto">
             Committed to imparting knowledge and inspiration through our
             literary works.{" "}
           </h2>
         </div>
       </div>
-      <div className="filter-cards text-center sm:mt-[14px] pb-5 px-4 mt-[0px]">
-        <div className="flex justify-between items-start sm:flex-row flex-col">
-          <div className="text-right h-[60px]  flex justify-end  w-[100%] sm:w-[220px]">
-            <div className="relative w-[100%] sm:w-[520px] ">
+      <div className="filter-cards text-center sm:mt-[0px] pb-5 px-4 mt-[0px]">
+        <div className="flex justify-end items-end sm:flex-row flex-col">
+          <div className="text-right h-[40px]  flex justify-end  w-[100%] sm:w-[363px]">
+            <div className="relative w-[100%] sm:w-[342px] ">
               <div
-                className="absolute w-[100%] sm:w-[520px] inset-y-1
+                className="absolute w-[100%] sm:w-[342px] inset-y-1
                bottom-0 left-0 flex items-center pl-3 pointer-events-none"
               >
                 <svg
@@ -62,7 +62,7 @@ const Product = () => {
                 onChange={(e)=>handleSearch(e)}
                 id="search"
                 value={query}
-                className="flex h-[60px]  bg-white border-1 rounded-[20px] justify-between items-center py-[8px] px[24px] w-full p-2 focus:outline-none focus:border-sky focus:ring-2 pl-10 text-sm text-gray-900 border border-border "
+                className="flex h-[40px] sm:h-[40px]  bg-white border-1 rounded-[20px] justify-between items-center py-[8px] px[24px] w-full p-2 focus:outline-none focus:border-sky focus:ring-2 pl-10 text-sm text-gray-900 border border-border "
                 placeholder="Search"
               />
             </div>{" "}

@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 const Homefold = () => {
   return (
     <>
-      <div className="bg-[heading] relative  h-[426px] sm:h-[569px] shadow-lg sm:mb-0 mb-0">
+      <div className="bg-[heading] relative  h-[378px] sm:h-[569px] shadow-lg sm:mb-0 mb-0">
         <div className=" mx-auto max-w-[90%] sm:max-w-[80%] md:max-w-[80%] lg:max-w-[80%]  py-0 sm:py-20 relative">
           <div className="block sm:flex   justify-center  gap-10">
             <div>
               <p
                 className={
-                  "text-center   font-bold mt-[60px]   w-[40%] sm:w-[136px] m-auto text-base py-1 sm:mt-8  px-1  focus:ring-yellow-300 text-white rounded-[20px] bg-[#4d6998] hover:bg-black dark:focus:ring-yellow-900"
+                  "text-center   font-bold mt-[29px]   w-[40%] sm:w-[136px] m-auto text-base py-1 sm:mt-8  px-1  focus:ring-yellow-300 text-white rounded-[20px] bg-[#4d6998] hover:bg-black dark:focus:ring-yellow-900"
                 }
               >
                 INTRODUCING{" "}
