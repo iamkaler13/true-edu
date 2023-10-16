@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
-const OurTeam = () => {
+const Ourteam = () => {
   const data = [
     {
       name: " Abhishek Thakur",
@@ -102,4 +102,4 @@ const OurTeam = () => {
   );
 };
 
-export default OurTeam;
+export default Ourteam;
