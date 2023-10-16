@@ -1,6 +1,9 @@
 import React from "react";
-
-const Privacypociy = () => {
+import { useEffect } from "react";
+const PrivacyPolicy = () => {
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
   return (
     <div className=" bg-white sm:py-5 py-5 px-5 sm:px-0  ">
       <div className="sm:px-0">
@@ -102,4 +105,4 @@ const Privacypociy = () => {
   );
 };
 
-export default Privacypociy;
+export default PrivacyPolicy;

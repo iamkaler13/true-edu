@@ -8,14 +8,14 @@ import Product from "./pages/Books.js";
 
 import Publish from "./pages/Publish.js";
 import WheretoBuy from "./pages/WheretoBuy.js";
-import Privacypociy from "./pages/Privacypociy.js";
-import Whoweare from "./pages/Whoweare.js";
-import Ourmission from "./pages/Ourmission.js";
-import Aboutus from "./pages/Aboutus.js";
-import Ourteam from "./pages/Ourteam.js";
+import PrivacyPolicy from "./pages/PrivacyPolicy.js";
+import OurMission from "./pages/OurMission.js";
+import AboutUs from "./pages/AboutUs.js";
+import OurTeam from "./pages/OurTeam.js";
 import SingleProduct from "./pages/SingleProduct.js";
 
 function App() {
+
   return (
     <BrowserRouter>
       <Navbar></Navbar>
@@ -26,11 +26,10 @@ function App() {
           <Route path="/books" element={<Product />} />
           <Route path="/publish-with-us" element={<Publish />} />
           <Route path="/where-to-buy" element={<WheretoBuy />} />
-          <Route path="/privacy-policy" element={<Privacypociy />} />
-          <Route path="/who-we-are" element={<Whoweare />} />
-          <Route path="/our-mission" element={<Ourmission />} />
-          <Route path="/about-us" element={<Aboutus />} />
-          <Route path="/our-team" element={<Ourteam />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/our-mission" element={<OurMission />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/our-team" element={<OurTeam />} />
           <Route path="/books/:slug" element={<SingleProduct />} />
 
 

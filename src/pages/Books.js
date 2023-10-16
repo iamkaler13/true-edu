@@ -17,7 +17,9 @@ const Product = () => {
     setBooksData(filteredData);
   };
 
- 
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
 
   return (
     <div className="bg-white  mx-auto max-w-7xl py-0 sm:py-0 sm:px-0">

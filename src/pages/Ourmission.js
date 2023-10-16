@@ -1,7 +1,10 @@
 import React from 'react'
-
-const Ourmission = () => {
-  return (
+import { useEffect } from 'react';
+const OurMission = () => {
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
+return (
 <div className=" bg-white sm:py-5 py-5 px-5 sm:px-0  ">
       <div className="sm:px-0 ">
    
@@ -20,4 +23,4 @@ const Ourmission = () => {
     </div>  )
 }
 
-export default Ourmission
+export default OurMission
