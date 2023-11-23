@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const Homefold = () => {
+const HomeFold = () => {
   return (
     <>
       <div className="bg-[heading] relative  h-[378px] sm:h-[569px] shadow-lg sm:mb-0 mb-0">
@@ -62,4 +62,4 @@ const Homefold = () => {
   );
 };
 
-export default Homefold;
+export default HomeFold;

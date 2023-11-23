@@ -1,5 +1,5 @@
 import React from "react";
-
+import { useEffect } from "react";
 const Ourteam = () => {
   const data = [
     {
@@ -44,6 +44,9 @@ const Ourteam = () => {
       img: "/team/Sushil.png",
     },
   ];
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
   return (
     <div className=" bg-white sm:py-5 py-5 px-5 sm:px-0  ">
       <div className="sm:px-0">
@@ -54,6 +57,7 @@ const Ourteam = () => {
               <div className="relative w-auto sm:hidden block h-auto sm:w-[300px] mt-[20px] overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75  m-auto">
                 <img
                   src={ele.img}
+                  alt="team"
                   className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                   fill={true}
                 />

@@ -27,7 +27,6 @@ const slides = [
     },
   ];
 const Heighlight = () => {
-  const [hideHoverData, setHideHoverData] = useState(null);
 
   return (
     <div className=" bg-[#4d6998] sm:py-10 py-6 sm:my-[26px] ">
@@ -55,10 +54,7 @@ const Heighlight = () => {
                   
                   <span
                     className="cursor-pointer"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setHideHoverData(key);
-                    }}
+          
                   >
                     {item.astrick}
                   </span>

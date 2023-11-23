@@ -1,24 +1,23 @@
-import Homefold from "../components/Homeabove";
-import SellBook from "../components/SellBook";
+import HomeFold from "../components/HomeFold";
 import Myapp from "../components/Myapp";
 import Connect from "../components/Connect";
 import Heighlight from "../components/Heighlight";
 import LatestBook from "../components/LatestBook";
-import Benifits from "../components/Team";
-
+import { useEffect } from "react";
 const Home = () => {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <div className="mx-auto max-w-7xl py-0 sm:py-0 sm:px-0">
-    
-        <Homefold/>
-        <Heighlight />
-        {/* <SellBook/> */}
-        <LatestBook />
-        <Myapp/>
+      <HomeFold />
+      <Heighlight />
+      <LatestBook />
+      <Myapp />
 
-<Connect/>
-
-</div>
+      <Connect />
+    </div>
   );
 };
 

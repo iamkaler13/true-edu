@@ -4,7 +4,7 @@ import Product from "../data/books.json";
 import { useState } from "react";
 const SingleProduct = () => {
   const { slug } = useParams();
-  const data = Product.find((ele) => ele.slug == slug);
+  const data = Product.find((ele) => ele.slug === slug);
   const [show, setSHow] = useState(false);
   return (
     <div className=" bg-white sm:py-10 py-0 px-5 sm:px-0 sm:mt-[50px]  ">
@@ -14,6 +14,7 @@ const SingleProduct = () => {
             <div className="relative w-auto  h-auto sm:w-[369px] ]">
               <img
                 src={data.img}
+                alt="our-boks"
                 className="w-full mx-auto shadow-lg  bg-contain !static sm:absolute"
                 fill={true}
               />
@@ -56,7 +57,7 @@ const SingleProduct = () => {
       <div className="flex flex-row gap-[5rem] sm:gap-[9rem] sm:mt-[45px]">
         <div
           className={`text-[15px] sm:text-[25px] font-semibold ${
-            show == false ? " border-b-[2px] " : ""
+            show === false ? " border-b-[2px] " : ""
           } border-[#4d6998] cursor-pointer`}
           onClick={() => setSHow(false)}
         >
@@ -65,7 +66,7 @@ const SingleProduct = () => {
 
         <div
           className={`text-[15px] sm:text-[25px] font-semibold ${
-            show == true ? " border-b-[2px] " : ""
+            show === true ? " border-b-[2px] " : ""
           } border-[#4d6998] cursor-pointer`}
           onClick={() => setSHow(true)}
         >

@@ -1,6 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useEffect } from "react";
 const Publish = () => {
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
   return (
     <div className=" bg-white sm:py-10 py-0 px-5 sm:px-0  ">
       <div className="block mt-10 sm:mt-[-70px] sm:flex md:flex lg:flex justify-evenly items-center gap-14 sm:gap-[9.5rem] ">
@@ -24,6 +27,8 @@ const Publish = () => {
               src="/mobile-app.svg"
               className="w-full mx-auto bg-contain !static sm:absolute"
               fill={true}
+              alt="publish"
+
             />
           </div>
         </div>
