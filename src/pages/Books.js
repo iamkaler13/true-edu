@@ -23,7 +23,7 @@ const Product = () => {
 
   return (
     <div className="bg-white  mx-auto max-w-7xl py-0 sm:py-0 sm:px-0">
-      <div className=" mx-auto max-w-[90%] sm:max-w-[90%] md:max-w-[90%] lg:max-w-[90%]  py-10 sm:py-4">
+      <div className=" mx-auto max-w-[90%] sm:max-w-[90%] md:max-w-[90%] lg:max-w-[90%]  pt-3 pb-0 sm:pt-4 sm:pb-4">
         <div className="text-center mb-5">
           <p className=" font-bold uppercase  sm:text-[40px] text-[20px] text-center mb-2 sm:mb-0 sm:!leading-[3.75rem] sm:w-[900px] m-auto text-[#FF5721]">
             our books
