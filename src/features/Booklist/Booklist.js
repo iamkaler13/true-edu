@@ -19,12 +19,12 @@ export function ProductList({products}) {
                 </div>
                 <div className="mt-[2px] sm:mt-4  justify-between">
                   <div>
-                  <h2 className={` text-[16px] sm:text-[20px] !font-bold text-black`}>
+                  {/* <h2 className={` text-[16px] sm:text-[20px] !font-bold text-black`}>
                     <div>{product.name}</div>
                   </h2>
                   <h3 className={` text-start mb-0 m:mb-0 mt-0 sm:mt-0 text-sm   sm:font-semibold text-heading`}>
                     <p className="sm:text-[15px]">By : {product.Author}</p>
-                  </h3>
+                  </h3> */}
 
                   <button className="text-[#FF5721] hover:text-heading my-3 sm:my-0 text-lg font-semibold dark:focus:ring-yellow-900 rounded-lg">
                     <Link to={`/books/${product.slug}`}> Read more →</Link>
