@@ -74,7 +74,7 @@ const LatestBook = () => {
                   </h3>
 
                   <button className="text-[#FF5721] hover:text-heading my-3 sm:my-0 text-lg font-semibold dark:focus:ring-yellow-900 rounded-lg">
-                    <Link to={`/books/${ele.slug}`}> Learn more →</Link>
+                    <Link to={`/books/${ele.slug}`}> Read more →</Link>
                   </button>
                 </div>
               </div>
