@@ -26,7 +26,7 @@ export function ProductList({products}) {
                     <p className="sm:text-[15px]">By : {product.Author}</p>
                   </h3>
 
-                  <button className="text-[#FF5721] hover:text-heading my-3 sm:my-0 text-lg font-semibold dark:focus:ring-yellow-900 rounded-lg">
+                  <button className="text-[#FF5721] hover:text-heading my-3 sm:my-0 text-lg font-[400] dark:focus:ring-yellow-900 rounded-lg">
                     <Link to={`/books/${product.slug}`}> Read more →</Link>
                   </button>
                   </div>
