@@ -21,20 +21,20 @@ const SingleProduct = () => {
             </div>
           </div>
           <div className="sm:pt-[0px]">
-            <h2 className="sm:w-[473px] font-semi-bold text-[#252C47] sm:mt-0 mt-1 text-[26px] sm:text-[30px] sm:mb-2  sm:leading-none ">
+            <h2 className="sm:w-[473px] font-semibold sm:mt-0 mt-1 text-[20px] sm:text-[30px] sm:mb-2  sm:leading-none ">
               {data.name}
             </h2>
-            <p className="mt-3 mb-4 text-[#474F70] text-[20px] sm:text-[20px]">
+            <p className="mt-1 mb-2 sm:mt-3 sm:mb-4 text-[#474F70] text-[16px] sm:text-[20px]">
               <span className="text-black">Edition:</span> {data.edition}{" "}
             </p>{" "}
-            <p className="mt-3 mb-4 text-[#474F70] text-[20px] sm:text-[20px]">
+            <p className="mt-1 mb-2 sm:mt-3 sm:mb-4 text-[#474F70] text-[16px] sm:text-[20px]">
               <span className="text-black uppercase"> isbn:</span> {data.isbn}{" "}
             </p>{" "}
          
-            <p className="mt-3 mb-4 text-[#474F70] text-[20px] sm:text-[20px]">
+            <p className="mt-1 mb-2 sm:mt-3 sm:mb-4 text-[#474F70] text-[16px] sm:text-[20px]">
               <span className="text-black"> By:</span> {data.Author}{" "}
             </p>{" "}
-            <p className="mt-3 mb-4 text-[#474F70] text-[20px] sm:text-[20px]">
+            <p className="mt-1 mb-2 sm:mt-3 sm:mb-4 text-[#474F70] text-[16px] sm:text-[20px]">
               <span className="text-black"> Mrp:</span> &#8377;{data.price}{" "}
             </p>{" "}
             <div className="block sm:w-[473px] sm:pt-[0px]">
@@ -75,18 +75,18 @@ const SingleProduct = () => {
       </div>
       {show ? (
         <>
-          <p className="  text-left text-[15px]  sm:text-[18px] my-3 sm:ml-[] sm:mt-3 text-heading">
+          <p className="  text-left text-[15px]  sm:text-[16px] my-3 sm:ml-[] sm:mt-3 text-heading">
             {data?.AbooutTheBook?.heading}
           </p>
           <div className=" text-left   sm:ml-[1rem] sm:mt-8   mt-[1.5rem] mb-[1.5rem] sm:mb-4 text-heading">
             {data?.AbooutTheBook?.content.map((ele) => (
               <>
-                <p className="text-[15px]  sm:text-[18px]  font-semibold my-3">{ele?.name}</p>
-                <p className="text-[15px]  sm:text-[18px] my-3">{ele?.paragraph}</p>
+                <p className="text-[15px]  sm:text-[16px]  font-semibold my-3">{ele?.name}</p>
+                <p className="text-[15px]  sm:text-[16px] my-3">{ele?.paragraph}</p>
               </>
             ))}
           </div>
-          <p className=" text-[15px]  sm:text-[18px] text-left  :ml-[rem] sm:mt-[0px]  mt-[1.5rem] mb-[1.5rem] sm:mb-4 text-heading">
+          <p className=" text-[15px]  sm:text-[16px] text-left  :ml-[rem] sm:mt-[0px]  mt-[1.5rem] mb-[1.5rem] sm:mb-4 text-heading">
             {data?.AbooutTheBook?.lastheading}
           </p>
        
@@ -95,8 +95,8 @@ const SingleProduct = () => {
         < div className="sm:mt-3">
           {data.tableOfContents.map((ele) => (
             <>
-              <p className="text-[15px]  sm:text-[18px] font-semibold my-3">{ele?.name}</p>
-              <p className="text-[15px]  sm:text-[18px] my-3">{ele?.content}</p>
+              <p className="text-[15px]  sm:text-[16px] font-semibold my-3">{ele?.name}</p>
+              <p className="text-[15px]  sm:text-[16px] my-3">{ele?.content}</p>
             
             </>
           ))}
