@@ -22,7 +22,7 @@ export function ProductList({products}) {
                   <h2 className={` text-[16px] sm:text-[20px] !font-bold text-black`}>
                     <div>{product.name}</div>
                   </h2>
-                  <h3 className={` text-start mb-0 m:mb-0 mt-0 sm:mt-0 text-sm   font-semibold text-heading`}>
+                  <h3 className={` text-start mb-0 m:mb-0 mt-0 sm:mt-0 text-sm   sm:font-semibold text-heading`}>
                     <p className="sm:text-[15px]">By : {product.Author}</p>
                   </h3>
 
