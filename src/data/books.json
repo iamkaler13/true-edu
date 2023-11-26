@@ -53,68 +53,7 @@
       "Speaking Skills"
     ]
   },
-  {
-    "name": "Applied Physics-1",
-    "isbn": "978-81-962529-4-6",
-    "edition": "1st edition",
-    "Author": "Amit Pathak, Manoj Kumar Saini & Dr. Raj Kumar Jagota",
-    "price": "249",
-    "slug": "applied-Physics-1",
-    "img": "/books/Applied Physics-1 Front.png",
-    "category": "Applied Sciences",
-    "semester": "First",
-    "AbooutTheBook": {
-      "heading": "Most of the students generally tend to assume physics as a tough and complicated subject involving a plethora of formulae and equations. This book covers the basic scientific content of each unit topic wise in a clear and simple language, so as to make the student understand the basic concepts clearly. The subject matter of each topic has been given in a simple and sequential manner with fully labelled and explicit diagrams, so as to enable the student to study and grasp the concept on his own.",
-      "content": [
-        {
-          "name": "",
-          "paragraph": "Besides, the solved Numerical Based Examples given at the end of each unit have also been given topic wise. Which will give the student enough material for practice and understanding."
-        }
-      ],
-      "lastheading": "At the end of the book the ‘Practical’ Portion of the syllabus has been covered in which the knowledge about performing all the experiments has been given in detail."
-    },
-    "tableOfContents": [
-        {
-          "name": "At the end of the book the ‘Practical’ Portion of the syllabus has been covered in which the knowledge about performing all the experiments has been given in detail.",
-          "content": "Physical quantities: fundamental and derived, Units and systems of units (FPS, CGS and SI units), Dimensions and dimensional formulae of physical quantities, Principle of homogeneity of dimensions, Dimensional equations and their applications(conversion from one system of units to other, checking of dimensional equations and derivation of simple equations), Limitations of dimensional analysis. Errors in measurements (systematic and random), absolute error, relative error, error estimation and significant figures."
-        },
-        {
-          "name": "Unit 2: Force and Motion",
-          "content": "Scalar and Vector quantities – examples, representation of vector, types of vectors. Addition and Subtraction of Vectors, Triangle and Parallelogram law (Statement 13 only), Scalar and Vector Product, Resolution of a Vector and its application to inclined plane (Rectangular components) and lawn roller.Force, Momentum, Statement and derivation of conservation of linear momentum, its applications such as recoil of gun &rockets, Impulse and its applications.Circular motion, definition of angular displacement, angular velocity, angular acceleration, frequency, time period. Relation between linear and angular velocity, linear acceleration and angular acceleration (related numerical), Centripetal and Centrifugal forces with live examples, Expression and applications such as banking of roads and bending of cyclist."
-        },
-        {
-          "name": "Unit 3: Work, Power and Energy",
-          "content": "Work: Concept and units, examples of zero work, positive work and negative work Friction: concept, types, laws of limiting friction, coefficient of friction, methods for reducing friction and its engineering applications, Work done in moving an object on horizontal and inclined plane for rough and plane surfaces and related applications. Energy and its units, kinetic energy, gravitational potential energy with examples and derivations, Mechanical energy, conservation of mechanical energy for freely falling bodies, transformation of energy (examples). Power and its units, power and work relationship, calculation of power (numerical problems)."
-        },
-        {
-          "name": "Unit 4: Rotational Motion",
-          "content": "Translational and rotational motions with examples. Definition of torque and angular momentum and their examples. Conservation of angular momentum (quantitative) and its applications. Moment of inertia and its physical significance, radius of gyration for rigid body, Theorems of parallel and perpendicular axes (statements only), Moment of inertia of rod, disc, ring and sphere (hollow and solid): (Formulae only)."
-        },
-        {
-          "name": "Unit 5: Properties of Matter",
-          "content": "Elasticity: Definition of stress and strain, different types of modulii of elasticity, Hooke’s law, significance of stress-strain curve. Pressure: definition, units, atmospheric pressure, gauge pressure, absolute pressure, Fortin’s Barometer and its applications. 14 Surface tension: concept, units, cohesive and adhesive forces, angle of contact, Ascent Formula (No derivation), applications of surface tension, effect of temperature and impurity on surface tension."
-        },
-        {
-          "name": "Unit 6: Heat and Thermometry",
-          "content": "Concept of heat and temperature. Modes of heat transfer (conduction, convection and radiation with examples), scales of temperature and their relationship, Types of Thermometer (Mercury thermometer, bimetallic thermometer, Platinum resistance thermometer, Pyrometer) and their uses. Expansion of solids, liquids and gases, coefficient of linear, surface and cubical expansions and relation amongst them, Co-efficient of thermal conductivity."
-        }
-      
- 
-    ],
-    "practicals": [
-      "To measure length, radius of a given cylinder, a test tube and a beaker using a Vernier caliper and find volume of each object.",
-      "To determine diameter of a wire, a solid ball and thickness of cardboard using a screw gauge. ",
-      "To determine radius of curvature of a convex and a concave mirror/surface using a spherometer. ",
-      "To verify triangle and parallelogram law of forces. ",
-      "To find the co-efficient of friction between wood and glass using a horizontal board.",
-      "To determine force constant of a spring using Hook’s Law.",
-      "To verify law of conservation of mechanical energy (PE to KE).",
-      "To find the moment of inertia of a flywheel.",
-      "To find the coefficient of linear expansion of the material of a rod. ",
-      "To determine atmospheric pressure at a place using Fortin’s barometer.",
-      "To measure room temperature and temperature of a hot bath using mercury thermometer and convert it into different scales."
-    ]
-  },
+  
   {
     "name": "Concrete Technology",
     "isbn": "978-81-962529-6-0",
@@ -818,5 +757,67 @@
       
     ],
     "practicals": []
+  },
+  {
+    "name": "Applied Physics-1",
+    "isbn": "978-81-962529-4-6",
+    "edition": "1st edition",
+    "Author": "Amit Pathak, Manoj Kumar Saini & Dr. Raj Kumar Jagota",
+    "price": "249",
+    "slug": "applied-Physics-1",
+    "img": "/books/Applied Physics-1 Front.png",
+    "category": "Applied Sciences",
+    "semester": "First",
+    "AbooutTheBook": {
+      "heading": "Most of the students generally tend to assume physics as a tough and complicated subject involving a plethora of formulae and equations. This book covers the basic scientific content of each unit topic wise in a clear and simple language, so as to make the student understand the basic concepts clearly. The subject matter of each topic has been given in a simple and sequential manner with fully labelled and explicit diagrams, so as to enable the student to study and grasp the concept on his own.",
+      "content": [
+        {
+          "name": "",
+          "paragraph": "Besides, the solved Numerical Based Examples given at the end of each unit have also been given topic wise. Which will give the student enough material for practice and understanding."
+        }
+      ],
+      "lastheading": "At the end of the book the ‘Practical’ Portion of the syllabus has been covered in which the knowledge about performing all the experiments has been given in detail."
+    },
+    "tableOfContents": [
+        {
+          "name": "At the end of the book the ‘Practical’ Portion of the syllabus has been covered in which the knowledge about performing all the experiments has been given in detail.",
+          "content": "Physical quantities: fundamental and derived, Units and systems of units (FPS, CGS and SI units), Dimensions and dimensional formulae of physical quantities, Principle of homogeneity of dimensions, Dimensional equations and their applications(conversion from one system of units to other, checking of dimensional equations and derivation of simple equations), Limitations of dimensional analysis. Errors in measurements (systematic and random), absolute error, relative error, error estimation and significant figures."
+        },
+        {
+          "name": "Unit 2: Force and Motion",
+          "content": "Scalar and Vector quantities – examples, representation of vector, types of vectors. Addition and Subtraction of Vectors, Triangle and Parallelogram law (Statement 13 only), Scalar and Vector Product, Resolution of a Vector and its application to inclined plane (Rectangular components) and lawn roller.Force, Momentum, Statement and derivation of conservation of linear momentum, its applications such as recoil of gun &rockets, Impulse and its applications.Circular motion, definition of angular displacement, angular velocity, angular acceleration, frequency, time period. Relation between linear and angular velocity, linear acceleration and angular acceleration (related numerical), Centripetal and Centrifugal forces with live examples, Expression and applications such as banking of roads and bending of cyclist."
+        },
+        {
+          "name": "Unit 3: Work, Power and Energy",
+          "content": "Work: Concept and units, examples of zero work, positive work and negative work Friction: concept, types, laws of limiting friction, coefficient of friction, methods for reducing friction and its engineering applications, Work done in moving an object on horizontal and inclined plane for rough and plane surfaces and related applications. Energy and its units, kinetic energy, gravitational potential energy with examples and derivations, Mechanical energy, conservation of mechanical energy for freely falling bodies, transformation of energy (examples). Power and its units, power and work relationship, calculation of power (numerical problems)."
+        },
+        {
+          "name": "Unit 4: Rotational Motion",
+          "content": "Translational and rotational motions with examples. Definition of torque and angular momentum and their examples. Conservation of angular momentum (quantitative) and its applications. Moment of inertia and its physical significance, radius of gyration for rigid body, Theorems of parallel and perpendicular axes (statements only), Moment of inertia of rod, disc, ring and sphere (hollow and solid): (Formulae only)."
+        },
+        {
+          "name": "Unit 5: Properties of Matter",
+          "content": "Elasticity: Definition of stress and strain, different types of modulii of elasticity, Hooke’s law, significance of stress-strain curve. Pressure: definition, units, atmospheric pressure, gauge pressure, absolute pressure, Fortin’s Barometer and its applications. 14 Surface tension: concept, units, cohesive and adhesive forces, angle of contact, Ascent Formula (No derivation), applications of surface tension, effect of temperature and impurity on surface tension."
+        },
+        {
+          "name": "Unit 6: Heat and Thermometry",
+          "content": "Concept of heat and temperature. Modes of heat transfer (conduction, convection and radiation with examples), scales of temperature and their relationship, Types of Thermometer (Mercury thermometer, bimetallic thermometer, Platinum resistance thermometer, Pyrometer) and their uses. Expansion of solids, liquids and gases, coefficient of linear, surface and cubical expansions and relation amongst them, Co-efficient of thermal conductivity."
+        }
+      
+ 
+    ],
+    "practicals": [
+      "To measure length, radius of a given cylinder, a test tube and a beaker using a Vernier caliper and find volume of each object.",
+      "To determine diameter of a wire, a solid ball and thickness of cardboard using a screw gauge. ",
+      "To determine radius of curvature of a convex and a concave mirror/surface using a spherometer. ",
+      "To verify triangle and parallelogram law of forces. ",
+      "To find the co-efficient of friction between wood and glass using a horizontal board.",
+      "To determine force constant of a spring using Hook’s Law.",
+      "To verify law of conservation of mechanical energy (PE to KE).",
+      "To find the moment of inertia of a flywheel.",
+      "To find the coefficient of linear expansion of the material of a rod. ",
+      "To determine atmospheric pressure at a place using Fortin’s barometer.",
+      "To measure room temperature and temperature of a hot bath using mercury thermometer and convert it into different scales."
+    ]
   }
 ]

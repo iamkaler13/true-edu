@@ -45,7 +45,7 @@ const LatestBook = () => {
     <div className="bg-[white] shadow-lg  special">
       <div className=" mx-auto max-w-[90%] sm:max-w-[90%] md:max-w-[90%] lg:max-w-[90%]   sm:py-0">
         <div className="text-center">
-          <div className="!font-bold text-[37px] leading-[45px]  sm:text-[30px] sm:pt-0 pt-[20px] sm:leading-none text-center  sm:w-[600px] m-auto">
+          <div className="!font-bold text-[24px] leading-[45px]  sm:text-[30px] sm:pt-0 pt-[20px] sm:leading-none text-center  sm:w-[600px] m-auto">
             <p>
               Our Latest Launches
               {/* <span className="text-[#FF5721]"> features and products </span> */}

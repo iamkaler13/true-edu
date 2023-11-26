@@ -29,7 +29,7 @@ const Product = () => {
             our books
           </p>
 
-          <h2 className="font-bold text-xl  sm:text-[20px] text-center  sm:w-[896px] sm:!leading-[2.75rem] sm:mt-2 m-auto">
+          <h2 className="sm:font-bold text-[16px]  sm:text-[20px] text-center  sm:w-[896px] sm:!leading-[2.75rem] sm:mt-2 m-auto">
             Committed to imparting knowledge and inspiration through our
             literary works.{" "}
           </h2>

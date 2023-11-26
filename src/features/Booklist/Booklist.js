@@ -9,7 +9,7 @@ export function ProductList({products}) {
           <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-0 sm:gap-y-[3.5rem] sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             {products.map((product, key) => (
               <div key={product.id} className="group relative pb-[55px] sm:pb-0">
-                <div className="aspect-h-1 aspect-w-1 h-[100%] sm:h-[80%] w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-705 ">
+                <div className=" rounded-sm ">
                   
                   <img
                     src={product.img}
@@ -26,7 +26,7 @@ export function ProductList({products}) {
                     <p className="sm:text-[15px]">By : {product.Author}</p>
                   </h3>
 
-                  <button className="text-[#FF5721]  hover:text-heading my-3 sm:!mt-2 text-[16px] sm:text-[18px] sm:my-0 text-lg font-semibold dark:focus:ring-yellow-900 rounded-lg">
+                  <button className="text-[#FF5721]  hover:text-heading my-0 sm:!mt-2 text-[16px] sm:text-[18px] sm:my-0 text-lg font-semibold dark:focus:ring-yellow-900 rounded-lg">
                     <Link to={`/books/${product.slug}`}> Read more →</Link>
                   </button>
                   </div>
