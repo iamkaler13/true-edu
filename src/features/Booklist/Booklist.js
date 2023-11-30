@@ -6,17 +6,19 @@ export function ProductList({products}) {
     <div>
       <div className="bg-white">
         <div className="mx-auto max-w-2xl px-4 py-0 sm:px-6 sm:py-4 lg:max-w-7xl ">
-          <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-0 sm:gap-y-[3.5rem] sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+          <div className="mt-6 grid grid-cols-2 gap-x-[20px] gap-y-0 sm:gap-y-[3.5rem] sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             {products.map((product, key) => (
-              <div key={product.id} className="group relative pb-[55px] sm:pb-0">
-                <div className=" rounded-sm ">
+              <div key={product.id} className="group relative pb-[22px] sm:pb-0">
+                 <Link to={`/books/${product.slug}`}> 
+                <div className=" rounded-sm shadow-3xl  ">
                   
                   <img
                     src={product.img}
                     alt={product.imageAlt}
-                    className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                    className="h-full w-full object-cover object-center rounded-[5px] lg:h-full lg:w-full"
                   />
                 </div>
+                </Link>
                 <div className="mt-[2px] sm:mt-4  justify-between">
                   <div>
                   <h2 className={`hidden sm:block text-[16px] sm:text-[20px] !font-bold text-black`}>
