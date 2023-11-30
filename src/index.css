@@ -108,3 +108,6 @@ code {
 .slick-next:before, .slick-prev:before {
   color: #4d6998!important;
 }
+.abc::after{
+  content: "☎️";
+}
