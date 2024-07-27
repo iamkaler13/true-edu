@@ -11,6 +11,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy.js"
 import Ourteam from "./pages/Ourteam.js"
 import Aboutus from "./pages/Aboutus.js"
 import SingleProduct from "./pages/SingleProduct.js";
+import Calculator from "./pages/Calculator.js";
 function App() {
 
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/about-us" element={<Aboutus/>} />
           <Route path="/our-team" element={<Ourteam />} />
           <Route path="/books/:slug" element={<SingleProduct />} />
+          <Route path="/calculator" element={<Calculator />} /> {/* Add the Calculator route */}
 
 
         </Routes>
